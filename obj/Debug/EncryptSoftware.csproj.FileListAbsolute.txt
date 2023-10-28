@@ -1,0 +1,16 @@
+C:\Users\alexn\source\repos\EncryptSoftware\bin\Debug\EncryptSoftware.exe.config
+C:\Users\alexn\source\repos\EncryptSoftware\bin\Debug\EncryptSoftware.exe
+C:\Users\alexn\source\repos\EncryptSoftware\bin\Debug\EncryptSoftware.pdb
+C:\Users\alexn\source\repos\EncryptSoftware\bin\Debug\Guna.UI2.dll
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.AssemblyReference.cache
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.MainScreen.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.Properties.Resources.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Enigma.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Home.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.GenerateResource.cache
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.CoreCompileInputs.cache
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.CopyComplete
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.exe
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.pdb
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_File.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Morse.resources
