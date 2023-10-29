@@ -47,7 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Name = "UC_Morse";
-            this.Size = new System.Drawing.Size(1282, 443);
+            this.Size = new System.Drawing.Size(1262, 605);
             this.ResumeLayout(false);
             this.PerformLayout();
 
