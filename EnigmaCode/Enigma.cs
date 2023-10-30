@@ -866,9 +866,7 @@ namespace EncryptSoftware.EnigmaCode
                                 ThirdRotor.Vlaue = 1;
                             }
                         }
-                        
                     }
-                    
                 }
 
                 cryptedMessage.Append(currentLetter);
