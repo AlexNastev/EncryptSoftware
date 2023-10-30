@@ -16,5 +16,10 @@ namespace EncryptSoftware.UserControls
         {
             InitializeComponent();
         }
+
+        private void UC_Enigma_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
