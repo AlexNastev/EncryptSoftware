@@ -90,7 +90,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.ConvertButton = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown3)).BeginInit();
@@ -1026,27 +1026,28 @@
             this.label31.TabIndex = 122;
             this.label31.Text = "3rd";
             // 
-            // guna2Button1
+            // ConvertButton
             // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button1.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(536, 260);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 123;
-            this.guna2Button1.Text = "Convert";
+            this.ConvertButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ConvertButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ConvertButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ConvertButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ConvertButton.FillColor = System.Drawing.Color.DarkOliveGreen;
+            this.ConvertButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConvertButton.ForeColor = System.Drawing.Color.White;
+            this.ConvertButton.Location = new System.Drawing.Point(536, 260);
+            this.ConvertButton.Name = "ConvertButton";
+            this.ConvertButton.Size = new System.Drawing.Size(180, 45);
+            this.ConvertButton.TabIndex = 123;
+            this.ConvertButton.Text = "Convert";
+            this.ConvertButton.Click += new System.EventHandler(this.ConvertButton_Click);
             // 
             // UC_Enigma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(71)))), ((int)(((byte)(58)))));
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.ConvertButton);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label29);
@@ -1183,6 +1184,6 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button ConvertButton;
     }
 }
