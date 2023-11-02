@@ -54,32 +54,32 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.guna2CustomCheckBox9 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox2 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox3 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox4 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox5 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox6 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox7 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox8 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox19 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox28 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox29 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox30 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox31 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox32 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox33 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox34 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox35 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox10 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox11 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox12 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox13 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox14 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox15 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox16 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox17 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.OCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.QCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.WCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.ECheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.RCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.TCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.ZCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.UCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.ICheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.MCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.NCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.BCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.VCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.CCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.XCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.YCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.PCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.LCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.KCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.JCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.HCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.GCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.FCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.DCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.SCheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.ACheckBox = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.InputTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.OutPutTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -382,447 +382,473 @@
             this.label27.TabIndex = 53;
             this.label27.Text = "A";
             // 
-            // guna2CustomCheckBox9
+            // OCheckBox
             // 
-            this.guna2CustomCheckBox9.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox9.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox9.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox9.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox9.Location = new System.Drawing.Point(927, 434);
-            this.guna2CustomCheckBox9.Name = "guna2CustomCheckBox9";
-            this.guna2CustomCheckBox9.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox9.TabIndex = 69;
-            this.guna2CustomCheckBox9.Text = "guna2CustomCheckBox9";
-            this.guna2CustomCheckBox9.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox9.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox9.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox9.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.OCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.OCheckBox.CheckedState.BorderRadius = 11;
+            this.OCheckBox.CheckedState.BorderThickness = 0;
+            this.OCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.OCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.OCheckBox.Location = new System.Drawing.Point(927, 434);
+            this.OCheckBox.Name = "OCheckBox";
+            this.OCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.OCheckBox.TabIndex = 69;
+            this.OCheckBox.Text = "guna2CustomCheckBox9";
+            this.OCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.OCheckBox.UncheckedState.BorderRadius = 11;
+            this.OCheckBox.UncheckedState.BorderThickness = 0;
+            this.OCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.OCheckBox.Click += new System.EventHandler(this.OCheckBox_Click);
             // 
-            // guna2CustomCheckBox1
+            // QCheckBox
             // 
-            this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox1.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(303, 434);
-            this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
-            this.guna2CustomCheckBox1.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox1.TabIndex = 87;
-            this.guna2CustomCheckBox1.Text = "guna2CustomCheckBox1";
-            this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.QCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.QCheckBox.CheckedState.BorderRadius = 11;
+            this.QCheckBox.CheckedState.BorderThickness = 0;
+            this.QCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.QCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.QCheckBox.Location = new System.Drawing.Point(303, 434);
+            this.QCheckBox.Name = "QCheckBox";
+            this.QCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.QCheckBox.TabIndex = 87;
+            this.QCheckBox.Text = "guna2CustomCheckBox1";
+            this.QCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.QCheckBox.UncheckedState.BorderRadius = 11;
+            this.QCheckBox.UncheckedState.BorderThickness = 0;
+            this.QCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.QCheckBox.Click += new System.EventHandler(this.QCheckBox_Click);
             // 
-            // guna2CustomCheckBox2
+            // WCheckBox
             // 
-            this.guna2CustomCheckBox2.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox2.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox2.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox2.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox2.Location = new System.Drawing.Point(380, 434);
-            this.guna2CustomCheckBox2.Name = "guna2CustomCheckBox2";
-            this.guna2CustomCheckBox2.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox2.TabIndex = 88;
-            this.guna2CustomCheckBox2.Text = "guna2CustomCheckBox2";
-            this.guna2CustomCheckBox2.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox2.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox2.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.WCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.WCheckBox.CheckedState.BorderRadius = 11;
+            this.WCheckBox.CheckedState.BorderThickness = 0;
+            this.WCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.WCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.WCheckBox.Location = new System.Drawing.Point(380, 434);
+            this.WCheckBox.Name = "WCheckBox";
+            this.WCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.WCheckBox.TabIndex = 88;
+            this.WCheckBox.Text = "guna2CustomCheckBox2";
+            this.WCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.WCheckBox.UncheckedState.BorderRadius = 11;
+            this.WCheckBox.UncheckedState.BorderThickness = 0;
+            this.WCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.WCheckBox.Click += new System.EventHandler(this.WCheckBox_Click);
             // 
-            // guna2CustomCheckBox3
+            // ECheckBox
             // 
-            this.guna2CustomCheckBox3.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox3.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox3.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox3.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox3.Location = new System.Drawing.Point(456, 434);
-            this.guna2CustomCheckBox3.Name = "guna2CustomCheckBox3";
-            this.guna2CustomCheckBox3.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox3.TabIndex = 89;
-            this.guna2CustomCheckBox3.Text = "guna2CustomCheckBox3";
-            this.guna2CustomCheckBox3.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox3.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox3.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ECheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.ECheckBox.CheckedState.BorderRadius = 11;
+            this.ECheckBox.CheckedState.BorderThickness = 0;
+            this.ECheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.ECheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.ECheckBox.Location = new System.Drawing.Point(456, 434);
+            this.ECheckBox.Name = "ECheckBox";
+            this.ECheckBox.Size = new System.Drawing.Size(32, 29);
+            this.ECheckBox.TabIndex = 89;
+            this.ECheckBox.Text = "guna2CustomCheckBox3";
+            this.ECheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.ECheckBox.UncheckedState.BorderRadius = 11;
+            this.ECheckBox.UncheckedState.BorderThickness = 0;
+            this.ECheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ECheckBox.Click += new System.EventHandler(this.ECheckBox_Click);
             // 
-            // guna2CustomCheckBox4
+            // RCheckBox
             // 
-            this.guna2CustomCheckBox4.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox4.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox4.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox4.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox4.Location = new System.Drawing.Point(536, 434);
-            this.guna2CustomCheckBox4.Name = "guna2CustomCheckBox4";
-            this.guna2CustomCheckBox4.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox4.TabIndex = 90;
-            this.guna2CustomCheckBox4.Text = "guna2CustomCheckBox4";
-            this.guna2CustomCheckBox4.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox4.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox4.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox4.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.RCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.RCheckBox.CheckedState.BorderRadius = 11;
+            this.RCheckBox.CheckedState.BorderThickness = 0;
+            this.RCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.RCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.RCheckBox.Location = new System.Drawing.Point(536, 434);
+            this.RCheckBox.Name = "RCheckBox";
+            this.RCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.RCheckBox.TabIndex = 90;
+            this.RCheckBox.Text = "guna2CustomCheckBox4";
+            this.RCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.RCheckBox.UncheckedState.BorderRadius = 11;
+            this.RCheckBox.UncheckedState.BorderThickness = 0;
+            this.RCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.RCheckBox.Click += new System.EventHandler(this.RCheckBox_Click);
             // 
-            // guna2CustomCheckBox5
+            // TCheckBox
             // 
-            this.guna2CustomCheckBox5.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox5.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox5.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox5.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox5.Location = new System.Drawing.Point(616, 434);
-            this.guna2CustomCheckBox5.Name = "guna2CustomCheckBox5";
-            this.guna2CustomCheckBox5.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox5.TabIndex = 91;
-            this.guna2CustomCheckBox5.Text = "guna2CustomCheckBox5";
-            this.guna2CustomCheckBox5.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox5.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox5.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox5.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.TCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.TCheckBox.CheckedState.BorderRadius = 11;
+            this.TCheckBox.CheckedState.BorderThickness = 0;
+            this.TCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.TCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.TCheckBox.Location = new System.Drawing.Point(616, 434);
+            this.TCheckBox.Name = "TCheckBox";
+            this.TCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.TCheckBox.TabIndex = 91;
+            this.TCheckBox.Text = "guna2CustomCheckBox5";
+            this.TCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.TCheckBox.UncheckedState.BorderRadius = 11;
+            this.TCheckBox.UncheckedState.BorderThickness = 0;
+            this.TCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.TCheckBox.Click += new System.EventHandler(this.TCheckBox_Click);
             // 
-            // guna2CustomCheckBox6
+            // ZCheckBox
             // 
-            this.guna2CustomCheckBox6.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox6.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox6.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox6.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox6.Location = new System.Drawing.Point(698, 434);
-            this.guna2CustomCheckBox6.Name = "guna2CustomCheckBox6";
-            this.guna2CustomCheckBox6.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox6.TabIndex = 92;
-            this.guna2CustomCheckBox6.Text = "guna2CustomCheckBox6";
-            this.guna2CustomCheckBox6.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox6.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox6.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox6.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ZCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.ZCheckBox.CheckedState.BorderRadius = 11;
+            this.ZCheckBox.CheckedState.BorderThickness = 0;
+            this.ZCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.ZCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.ZCheckBox.Location = new System.Drawing.Point(698, 434);
+            this.ZCheckBox.Name = "ZCheckBox";
+            this.ZCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.ZCheckBox.TabIndex = 92;
+            this.ZCheckBox.Text = "guna2CustomCheckBox6";
+            this.ZCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.ZCheckBox.UncheckedState.BorderRadius = 11;
+            this.ZCheckBox.UncheckedState.BorderThickness = 0;
+            this.ZCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ZCheckBox.Click += new System.EventHandler(this.ZCheckBox_Click);
             // 
-            // guna2CustomCheckBox7
+            // UCheckBox
             // 
-            this.guna2CustomCheckBox7.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox7.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox7.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox7.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox7.Location = new System.Drawing.Point(773, 434);
-            this.guna2CustomCheckBox7.Name = "guna2CustomCheckBox7";
-            this.guna2CustomCheckBox7.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox7.TabIndex = 93;
-            this.guna2CustomCheckBox7.Text = "guna2CustomCheckBox7";
-            this.guna2CustomCheckBox7.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox7.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox7.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox7.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.UCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.UCheckBox.CheckedState.BorderRadius = 11;
+            this.UCheckBox.CheckedState.BorderThickness = 0;
+            this.UCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.UCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.UCheckBox.Location = new System.Drawing.Point(773, 434);
+            this.UCheckBox.Name = "UCheckBox";
+            this.UCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.UCheckBox.TabIndex = 93;
+            this.UCheckBox.Text = "guna2CustomCheckBox7";
+            this.UCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.UCheckBox.UncheckedState.BorderRadius = 11;
+            this.UCheckBox.UncheckedState.BorderThickness = 0;
+            this.UCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.UCheckBox.Click += new System.EventHandler(this.UCheckBox_Click);
             // 
-            // guna2CustomCheckBox8
+            // ICheckBox
             // 
-            this.guna2CustomCheckBox8.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox8.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox8.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox8.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox8.Location = new System.Drawing.Point(853, 434);
-            this.guna2CustomCheckBox8.Name = "guna2CustomCheckBox8";
-            this.guna2CustomCheckBox8.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox8.TabIndex = 94;
-            this.guna2CustomCheckBox8.Text = "guna2CustomCheckBox8";
-            this.guna2CustomCheckBox8.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox8.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox8.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox8.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ICheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.ICheckBox.CheckedState.BorderRadius = 11;
+            this.ICheckBox.CheckedState.BorderThickness = 0;
+            this.ICheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.ICheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.ICheckBox.Location = new System.Drawing.Point(853, 434);
+            this.ICheckBox.Name = "ICheckBox";
+            this.ICheckBox.Size = new System.Drawing.Size(32, 29);
+            this.ICheckBox.TabIndex = 94;
+            this.ICheckBox.Text = "guna2CustomCheckBox8";
+            this.ICheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.ICheckBox.UncheckedState.BorderRadius = 11;
+            this.ICheckBox.UncheckedState.BorderThickness = 0;
+            this.ICheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ICheckBox.Click += new System.EventHandler(this.ICheckBox_Click);
             // 
-            // guna2CustomCheckBox19
+            // MCheckBox
             // 
-            this.guna2CustomCheckBox19.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox19.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox19.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox19.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox19.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox19.Location = new System.Drawing.Point(853, 547);
-            this.guna2CustomCheckBox19.Name = "guna2CustomCheckBox19";
-            this.guna2CustomCheckBox19.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox19.TabIndex = 103;
-            this.guna2CustomCheckBox19.Text = "guna2CustomCheckBox19";
-            this.guna2CustomCheckBox19.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox19.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox19.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox19.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.MCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.MCheckBox.CheckedState.BorderRadius = 11;
+            this.MCheckBox.CheckedState.BorderThickness = 0;
+            this.MCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.MCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.MCheckBox.Location = new System.Drawing.Point(853, 547);
+            this.MCheckBox.Name = "MCheckBox";
+            this.MCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.MCheckBox.TabIndex = 103;
+            this.MCheckBox.Text = "guna2CustomCheckBox19";
+            this.MCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.MCheckBox.UncheckedState.BorderRadius = 11;
+            this.MCheckBox.UncheckedState.BorderThickness = 0;
+            this.MCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.MCheckBox.Click += new System.EventHandler(this.MCheckBox_Click);
             // 
-            // guna2CustomCheckBox28
+            // NCheckBox
             // 
-            this.guna2CustomCheckBox28.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox28.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox28.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox28.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox28.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox28.Location = new System.Drawing.Point(773, 547);
-            this.guna2CustomCheckBox28.Name = "guna2CustomCheckBox28";
-            this.guna2CustomCheckBox28.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox28.TabIndex = 102;
-            this.guna2CustomCheckBox28.Text = "guna2CustomCheckBox28";
-            this.guna2CustomCheckBox28.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox28.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox28.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox28.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.NCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.NCheckBox.CheckedState.BorderRadius = 11;
+            this.NCheckBox.CheckedState.BorderThickness = 0;
+            this.NCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.NCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.NCheckBox.Location = new System.Drawing.Point(773, 547);
+            this.NCheckBox.Name = "NCheckBox";
+            this.NCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.NCheckBox.TabIndex = 102;
+            this.NCheckBox.Text = "guna2CustomCheckBox28";
+            this.NCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.NCheckBox.UncheckedState.BorderRadius = 11;
+            this.NCheckBox.UncheckedState.BorderThickness = 0;
+            this.NCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.NCheckBox.Click += new System.EventHandler(this.NCheckBox_Click);
             // 
-            // guna2CustomCheckBox29
+            // BCheckBox
             // 
-            this.guna2CustomCheckBox29.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox29.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox29.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox29.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox29.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox29.Location = new System.Drawing.Point(698, 547);
-            this.guna2CustomCheckBox29.Name = "guna2CustomCheckBox29";
-            this.guna2CustomCheckBox29.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox29.TabIndex = 101;
-            this.guna2CustomCheckBox29.Text = "guna2CustomCheckBox29";
-            this.guna2CustomCheckBox29.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox29.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox29.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox29.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.BCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.BCheckBox.CheckedState.BorderRadius = 11;
+            this.BCheckBox.CheckedState.BorderThickness = 0;
+            this.BCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.BCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.BCheckBox.Location = new System.Drawing.Point(698, 547);
+            this.BCheckBox.Name = "BCheckBox";
+            this.BCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.BCheckBox.TabIndex = 101;
+            this.BCheckBox.Text = "guna2CustomCheckBox29";
+            this.BCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.BCheckBox.UncheckedState.BorderRadius = 11;
+            this.BCheckBox.UncheckedState.BorderThickness = 0;
+            this.BCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.BCheckBox.Click += new System.EventHandler(this.BCheckBox_Click);
             // 
-            // guna2CustomCheckBox30
+            // VCheckBox
             // 
-            this.guna2CustomCheckBox30.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox30.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox30.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox30.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox30.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox30.Location = new System.Drawing.Point(616, 547);
-            this.guna2CustomCheckBox30.Name = "guna2CustomCheckBox30";
-            this.guna2CustomCheckBox30.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox30.TabIndex = 100;
-            this.guna2CustomCheckBox30.Text = "guna2CustomCheckBox30";
-            this.guna2CustomCheckBox30.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox30.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox30.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox30.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.VCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.VCheckBox.CheckedState.BorderRadius = 11;
+            this.VCheckBox.CheckedState.BorderThickness = 0;
+            this.VCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.VCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.VCheckBox.Location = new System.Drawing.Point(616, 547);
+            this.VCheckBox.Name = "VCheckBox";
+            this.VCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.VCheckBox.TabIndex = 100;
+            this.VCheckBox.Text = "guna2CustomCheckBox30";
+            this.VCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.VCheckBox.UncheckedState.BorderRadius = 11;
+            this.VCheckBox.UncheckedState.BorderThickness = 0;
+            this.VCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.VCheckBox.Click += new System.EventHandler(this.VCheckBox_Click);
             // 
-            // guna2CustomCheckBox31
+            // CCheckBox
             // 
-            this.guna2CustomCheckBox31.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox31.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox31.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox31.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox31.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox31.Location = new System.Drawing.Point(536, 547);
-            this.guna2CustomCheckBox31.Name = "guna2CustomCheckBox31";
-            this.guna2CustomCheckBox31.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox31.TabIndex = 99;
-            this.guna2CustomCheckBox31.Text = "guna2CustomCheckBox31";
-            this.guna2CustomCheckBox31.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox31.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox31.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox31.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.CCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.CCheckBox.CheckedState.BorderRadius = 11;
+            this.CCheckBox.CheckedState.BorderThickness = 0;
+            this.CCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.CCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.CCheckBox.Location = new System.Drawing.Point(536, 547);
+            this.CCheckBox.Name = "CCheckBox";
+            this.CCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.CCheckBox.TabIndex = 99;
+            this.CCheckBox.Text = "guna2CustomCheckBox31";
+            this.CCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.CCheckBox.UncheckedState.BorderRadius = 11;
+            this.CCheckBox.UncheckedState.BorderThickness = 0;
+            this.CCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.CCheckBox.Click += new System.EventHandler(this.CCheckBox_Click);
             // 
-            // guna2CustomCheckBox32
+            // XCheckBox
             // 
-            this.guna2CustomCheckBox32.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox32.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox32.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox32.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox32.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox32.Location = new System.Drawing.Point(456, 547);
-            this.guna2CustomCheckBox32.Name = "guna2CustomCheckBox32";
-            this.guna2CustomCheckBox32.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox32.TabIndex = 98;
-            this.guna2CustomCheckBox32.Text = "guna2CustomCheckBox32";
-            this.guna2CustomCheckBox32.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox32.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox32.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox32.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.XCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.XCheckBox.CheckedState.BorderRadius = 11;
+            this.XCheckBox.CheckedState.BorderThickness = 0;
+            this.XCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.XCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.XCheckBox.Location = new System.Drawing.Point(456, 547);
+            this.XCheckBox.Name = "XCheckBox";
+            this.XCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.XCheckBox.TabIndex = 98;
+            this.XCheckBox.Text = "guna2CustomCheckBox32";
+            this.XCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.XCheckBox.UncheckedState.BorderRadius = 11;
+            this.XCheckBox.UncheckedState.BorderThickness = 0;
+            this.XCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.XCheckBox.Click += new System.EventHandler(this.XCheckBox_Click);
             // 
-            // guna2CustomCheckBox33
+            // YCheckBox
             // 
-            this.guna2CustomCheckBox33.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox33.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox33.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox33.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox33.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox33.Location = new System.Drawing.Point(380, 547);
-            this.guna2CustomCheckBox33.Name = "guna2CustomCheckBox33";
-            this.guna2CustomCheckBox33.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox33.TabIndex = 97;
-            this.guna2CustomCheckBox33.Text = "guna2CustomCheckBox33";
-            this.guna2CustomCheckBox33.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox33.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox33.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox33.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.YCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.YCheckBox.CheckedState.BorderRadius = 11;
+            this.YCheckBox.CheckedState.BorderThickness = 0;
+            this.YCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.YCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.YCheckBox.Location = new System.Drawing.Point(380, 547);
+            this.YCheckBox.Name = "YCheckBox";
+            this.YCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.YCheckBox.TabIndex = 97;
+            this.YCheckBox.Text = "guna2CustomCheckBox33";
+            this.YCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.YCheckBox.UncheckedState.BorderRadius = 11;
+            this.YCheckBox.UncheckedState.BorderThickness = 0;
+            this.YCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.YCheckBox.Click += new System.EventHandler(this.YCheckBox_Click);
             // 
-            // guna2CustomCheckBox34
+            // PCheckBox
             // 
-            this.guna2CustomCheckBox34.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox34.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox34.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox34.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox34.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox34.Location = new System.Drawing.Point(303, 547);
-            this.guna2CustomCheckBox34.Name = "guna2CustomCheckBox34";
-            this.guna2CustomCheckBox34.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox34.TabIndex = 96;
-            this.guna2CustomCheckBox34.Text = "guna2CustomCheckBox34";
-            this.guna2CustomCheckBox34.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox34.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox34.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox34.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.PCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.PCheckBox.CheckedState.BorderRadius = 11;
+            this.PCheckBox.CheckedState.BorderThickness = 0;
+            this.PCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.PCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.PCheckBox.Location = new System.Drawing.Point(303, 547);
+            this.PCheckBox.Name = "PCheckBox";
+            this.PCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.PCheckBox.TabIndex = 96;
+            this.PCheckBox.Text = "guna2CustomCheckBox34";
+            this.PCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.PCheckBox.UncheckedState.BorderRadius = 11;
+            this.PCheckBox.UncheckedState.BorderThickness = 0;
+            this.PCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.PCheckBox.Click += new System.EventHandler(this.PCheckBox_Click);
             // 
-            // guna2CustomCheckBox35
+            // LCheckBox
             // 
-            this.guna2CustomCheckBox35.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox35.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox35.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox35.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox35.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox35.Location = new System.Drawing.Point(927, 547);
-            this.guna2CustomCheckBox35.Name = "guna2CustomCheckBox35";
-            this.guna2CustomCheckBox35.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox35.TabIndex = 95;
-            this.guna2CustomCheckBox35.Text = "guna2CustomCheckBox35";
-            this.guna2CustomCheckBox35.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox35.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox35.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox35.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.LCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.LCheckBox.CheckedState.BorderRadius = 11;
+            this.LCheckBox.CheckedState.BorderThickness = 0;
+            this.LCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.LCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.LCheckBox.Location = new System.Drawing.Point(927, 547);
+            this.LCheckBox.Name = "LCheckBox";
+            this.LCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.LCheckBox.TabIndex = 95;
+            this.LCheckBox.Text = "guna2CustomCheckBox35";
+            this.LCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.LCheckBox.UncheckedState.BorderRadius = 11;
+            this.LCheckBox.UncheckedState.BorderThickness = 0;
+            this.LCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.LCheckBox.Click += new System.EventHandler(this.LCheckBox_Click);
             // 
-            // guna2CustomCheckBox10
+            // KCheckBox
             // 
-            this.guna2CustomCheckBox10.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox10.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox10.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox10.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox10.Location = new System.Drawing.Point(888, 486);
-            this.guna2CustomCheckBox10.Name = "guna2CustomCheckBox10";
-            this.guna2CustomCheckBox10.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox10.TabIndex = 112;
-            this.guna2CustomCheckBox10.Text = "guna2CustomCheckBox10";
-            this.guna2CustomCheckBox10.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox10.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox10.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox10.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.KCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.KCheckBox.CheckedState.BorderRadius = 11;
+            this.KCheckBox.CheckedState.BorderThickness = 0;
+            this.KCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.KCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.KCheckBox.Location = new System.Drawing.Point(888, 486);
+            this.KCheckBox.Name = "KCheckBox";
+            this.KCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.KCheckBox.TabIndex = 112;
+            this.KCheckBox.Text = "guna2CustomCheckBox10";
+            this.KCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.KCheckBox.UncheckedState.BorderRadius = 11;
+            this.KCheckBox.UncheckedState.BorderThickness = 0;
+            this.KCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.KCheckBox.Click += new System.EventHandler(this.KCheckBox_Click);
             // 
-            // guna2CustomCheckBox11
+            // JCheckBox
             // 
-            this.guna2CustomCheckBox11.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox11.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox11.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox11.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox11.Location = new System.Drawing.Point(808, 486);
-            this.guna2CustomCheckBox11.Name = "guna2CustomCheckBox11";
-            this.guna2CustomCheckBox11.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox11.TabIndex = 111;
-            this.guna2CustomCheckBox11.Text = "guna2CustomCheckBox11";
-            this.guna2CustomCheckBox11.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox11.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox11.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox11.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.JCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.JCheckBox.CheckedState.BorderRadius = 11;
+            this.JCheckBox.CheckedState.BorderThickness = 0;
+            this.JCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.JCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.JCheckBox.Location = new System.Drawing.Point(808, 486);
+            this.JCheckBox.Name = "JCheckBox";
+            this.JCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.JCheckBox.TabIndex = 111;
+            this.JCheckBox.Text = "guna2CustomCheckBox11";
+            this.JCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.JCheckBox.UncheckedState.BorderRadius = 11;
+            this.JCheckBox.UncheckedState.BorderThickness = 0;
+            this.JCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.JCheckBox.Click += new System.EventHandler(this.JCheckBox_Click);
             // 
-            // guna2CustomCheckBox12
+            // HCheckBox
             // 
-            this.guna2CustomCheckBox12.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox12.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox12.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox12.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox12.Location = new System.Drawing.Point(733, 486);
-            this.guna2CustomCheckBox12.Name = "guna2CustomCheckBox12";
-            this.guna2CustomCheckBox12.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox12.TabIndex = 110;
-            this.guna2CustomCheckBox12.Text = "guna2CustomCheckBox12";
-            this.guna2CustomCheckBox12.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox12.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox12.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox12.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.HCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.HCheckBox.CheckedState.BorderRadius = 11;
+            this.HCheckBox.CheckedState.BorderThickness = 0;
+            this.HCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.HCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.HCheckBox.Location = new System.Drawing.Point(733, 486);
+            this.HCheckBox.Name = "HCheckBox";
+            this.HCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.HCheckBox.TabIndex = 110;
+            this.HCheckBox.Text = "guna2CustomCheckBox12";
+            this.HCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.HCheckBox.UncheckedState.BorderRadius = 11;
+            this.HCheckBox.UncheckedState.BorderThickness = 0;
+            this.HCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.HCheckBox.Click += new System.EventHandler(this.HCheckBox_Click);
             // 
-            // guna2CustomCheckBox13
+            // GCheckBox
             // 
-            this.guna2CustomCheckBox13.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox13.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox13.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox13.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox13.Location = new System.Drawing.Point(651, 486);
-            this.guna2CustomCheckBox13.Name = "guna2CustomCheckBox13";
-            this.guna2CustomCheckBox13.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox13.TabIndex = 109;
-            this.guna2CustomCheckBox13.Text = "guna2CustomCheckBox13";
-            this.guna2CustomCheckBox13.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox13.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox13.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox13.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.GCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.GCheckBox.CheckedState.BorderRadius = 11;
+            this.GCheckBox.CheckedState.BorderThickness = 0;
+            this.GCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.GCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.GCheckBox.Location = new System.Drawing.Point(651, 486);
+            this.GCheckBox.Name = "GCheckBox";
+            this.GCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.GCheckBox.TabIndex = 109;
+            this.GCheckBox.Text = "guna2CustomCheckBox13";
+            this.GCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.GCheckBox.UncheckedState.BorderRadius = 11;
+            this.GCheckBox.UncheckedState.BorderThickness = 0;
+            this.GCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.GCheckBox.Click += new System.EventHandler(this.GCheckBox_Click);
             // 
-            // guna2CustomCheckBox14
+            // FCheckBox
             // 
-            this.guna2CustomCheckBox14.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox14.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox14.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox14.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox14.Location = new System.Drawing.Point(571, 486);
-            this.guna2CustomCheckBox14.Name = "guna2CustomCheckBox14";
-            this.guna2CustomCheckBox14.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox14.TabIndex = 108;
-            this.guna2CustomCheckBox14.Text = "guna2CustomCheckBox14";
-            this.guna2CustomCheckBox14.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox14.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox14.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox14.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.FCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.FCheckBox.CheckedState.BorderRadius = 11;
+            this.FCheckBox.CheckedState.BorderThickness = 0;
+            this.FCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.FCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.FCheckBox.Location = new System.Drawing.Point(571, 486);
+            this.FCheckBox.Name = "FCheckBox";
+            this.FCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.FCheckBox.TabIndex = 108;
+            this.FCheckBox.Text = "guna2CustomCheckBox14";
+            this.FCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.FCheckBox.UncheckedState.BorderRadius = 11;
+            this.FCheckBox.UncheckedState.BorderThickness = 0;
+            this.FCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.FCheckBox.Click += new System.EventHandler(this.FCheckBox_Click);
             // 
-            // guna2CustomCheckBox15
+            // DCheckBox
             // 
-            this.guna2CustomCheckBox15.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox15.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox15.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox15.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox15.Location = new System.Drawing.Point(491, 486);
-            this.guna2CustomCheckBox15.Name = "guna2CustomCheckBox15";
-            this.guna2CustomCheckBox15.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox15.TabIndex = 107;
-            this.guna2CustomCheckBox15.Text = "guna2CustomCheckBox15";
-            this.guna2CustomCheckBox15.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox15.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox15.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox15.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.DCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.DCheckBox.CheckedState.BorderRadius = 11;
+            this.DCheckBox.CheckedState.BorderThickness = 0;
+            this.DCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.DCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.DCheckBox.Location = new System.Drawing.Point(491, 486);
+            this.DCheckBox.Name = "DCheckBox";
+            this.DCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.DCheckBox.TabIndex = 107;
+            this.DCheckBox.Text = "guna2CustomCheckBox15";
+            this.DCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.DCheckBox.UncheckedState.BorderRadius = 11;
+            this.DCheckBox.UncheckedState.BorderThickness = 0;
+            this.DCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.DCheckBox.Click += new System.EventHandler(this.DCheckBox_Click);
             // 
-            // guna2CustomCheckBox16
+            // SCheckBox
             // 
-            this.guna2CustomCheckBox16.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox16.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox16.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox16.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox16.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox16.Location = new System.Drawing.Point(415, 486);
-            this.guna2CustomCheckBox16.Name = "guna2CustomCheckBox16";
-            this.guna2CustomCheckBox16.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox16.TabIndex = 106;
-            this.guna2CustomCheckBox16.Text = "guna2CustomCheckBox16";
-            this.guna2CustomCheckBox16.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox16.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox16.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox16.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.SCheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.SCheckBox.CheckedState.BorderRadius = 11;
+            this.SCheckBox.CheckedState.BorderThickness = 0;
+            this.SCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.SCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.SCheckBox.Location = new System.Drawing.Point(415, 486);
+            this.SCheckBox.Name = "SCheckBox";
+            this.SCheckBox.Size = new System.Drawing.Size(32, 29);
+            this.SCheckBox.TabIndex = 106;
+            this.SCheckBox.Text = "guna2CustomCheckBox16";
+            this.SCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.SCheckBox.UncheckedState.BorderRadius = 11;
+            this.SCheckBox.UncheckedState.BorderThickness = 0;
+            this.SCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.SCheckBox.Click += new System.EventHandler(this.SCheckBox_Click);
             // 
-            // guna2CustomCheckBox17
+            // ACheckBox
             // 
-            this.guna2CustomCheckBox17.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox17.CheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox17.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox17.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.guna2CustomCheckBox17.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox17.Location = new System.Drawing.Point(338, 486);
-            this.guna2CustomCheckBox17.Name = "guna2CustomCheckBox17";
-            this.guna2CustomCheckBox17.Size = new System.Drawing.Size(32, 29);
-            this.guna2CustomCheckBox17.TabIndex = 105;
-            this.guna2CustomCheckBox17.Text = "guna2CustomCheckBox17";
-            this.guna2CustomCheckBox17.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2CustomCheckBox17.UncheckedState.BorderRadius = 11;
-            this.guna2CustomCheckBox17.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox17.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ACheckBox.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.ACheckBox.CheckedState.BorderRadius = 11;
+            this.ACheckBox.CheckedState.BorderThickness = 0;
+            this.ACheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
+            this.ACheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
+            this.ACheckBox.Location = new System.Drawing.Point(338, 486);
+            this.ACheckBox.Name = "ACheckBox";
+            this.ACheckBox.Size = new System.Drawing.Size(32, 29);
+            this.ACheckBox.TabIndex = 105;
+            this.ACheckBox.Text = "guna2CustomCheckBox17";
+            this.ACheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.ACheckBox.UncheckedState.BorderRadius = 11;
+            this.ACheckBox.UncheckedState.BorderThickness = 0;
+            this.ACheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ACheckBox.Click += new System.EventHandler(this.ACheckBox_Click);
             // 
             // InputTextBox
             // 
@@ -1058,32 +1084,32 @@
             this.Controls.Add(this.label19);
             this.Controls.Add(this.OutPutTextBox);
             this.Controls.Add(this.InputTextBox);
-            this.Controls.Add(this.guna2CustomCheckBox10);
-            this.Controls.Add(this.guna2CustomCheckBox11);
-            this.Controls.Add(this.guna2CustomCheckBox12);
-            this.Controls.Add(this.guna2CustomCheckBox13);
-            this.Controls.Add(this.guna2CustomCheckBox14);
-            this.Controls.Add(this.guna2CustomCheckBox15);
-            this.Controls.Add(this.guna2CustomCheckBox16);
-            this.Controls.Add(this.guna2CustomCheckBox17);
-            this.Controls.Add(this.guna2CustomCheckBox19);
-            this.Controls.Add(this.guna2CustomCheckBox28);
-            this.Controls.Add(this.guna2CustomCheckBox29);
-            this.Controls.Add(this.guna2CustomCheckBox30);
-            this.Controls.Add(this.guna2CustomCheckBox31);
-            this.Controls.Add(this.guna2CustomCheckBox32);
-            this.Controls.Add(this.guna2CustomCheckBox33);
-            this.Controls.Add(this.guna2CustomCheckBox34);
-            this.Controls.Add(this.guna2CustomCheckBox35);
-            this.Controls.Add(this.guna2CustomCheckBox8);
-            this.Controls.Add(this.guna2CustomCheckBox7);
-            this.Controls.Add(this.guna2CustomCheckBox6);
-            this.Controls.Add(this.guna2CustomCheckBox5);
-            this.Controls.Add(this.guna2CustomCheckBox4);
-            this.Controls.Add(this.guna2CustomCheckBox3);
-            this.Controls.Add(this.guna2CustomCheckBox2);
-            this.Controls.Add(this.guna2CustomCheckBox1);
-            this.Controls.Add(this.guna2CustomCheckBox9);
+            this.Controls.Add(this.KCheckBox);
+            this.Controls.Add(this.JCheckBox);
+            this.Controls.Add(this.HCheckBox);
+            this.Controls.Add(this.GCheckBox);
+            this.Controls.Add(this.FCheckBox);
+            this.Controls.Add(this.DCheckBox);
+            this.Controls.Add(this.SCheckBox);
+            this.Controls.Add(this.ACheckBox);
+            this.Controls.Add(this.MCheckBox);
+            this.Controls.Add(this.NCheckBox);
+            this.Controls.Add(this.BCheckBox);
+            this.Controls.Add(this.VCheckBox);
+            this.Controls.Add(this.CCheckBox);
+            this.Controls.Add(this.XCheckBox);
+            this.Controls.Add(this.YCheckBox);
+            this.Controls.Add(this.PCheckBox);
+            this.Controls.Add(this.LCheckBox);
+            this.Controls.Add(this.ICheckBox);
+            this.Controls.Add(this.UCheckBox);
+            this.Controls.Add(this.ZCheckBox);
+            this.Controls.Add(this.TCheckBox);
+            this.Controls.Add(this.RCheckBox);
+            this.Controls.Add(this.ECheckBox);
+            this.Controls.Add(this.WCheckBox);
+            this.Controls.Add(this.QCheckBox);
+            this.Controls.Add(this.OCheckBox);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label22);
@@ -1148,32 +1174,32 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox9;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox1;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox2;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox3;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox4;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox5;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox6;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox7;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox8;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox19;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox28;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox29;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox30;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox31;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox32;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox33;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox34;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox35;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox10;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox11;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox12;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox13;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox14;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox15;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox16;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox17;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox OCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox QCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox WCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox ECheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox RCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox TCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox ZCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox UCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox ICheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox MCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox NCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox BCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox VCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox CCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox XCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox YCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox PCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox LCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox KCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox JCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox HCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox GCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox FCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox DCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox SCheckBox;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox ACheckBox;
         private Guna.UI2.WinForms.Guna2TextBox InputTextBox;
         private Guna.UI2.WinForms.Guna2TextBox OutPutTextBox;
         private System.Windows.Forms.Label label19;

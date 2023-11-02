@@ -825,8 +825,6 @@ namespace EncryptSoftware.EnigmaCode
 
         public string Crypt(string message)
         {
-            int secondRotorCount = 0;
-            int thirdRotorCount = 0;
             char currentLetter;
             StringBuilder cryptedMessage = new StringBuilder();
             foreach (char letter in message)
