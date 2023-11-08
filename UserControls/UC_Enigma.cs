@@ -224,10 +224,10 @@ public UC_Enigma()
 
         private void GenerateFileButton_Click(object sender, EventArgs e)
         {
-            int firstRotorValue = firstRotor;
-            int secondRotorValue = secondRotor;
-            int thirdRotorValue = thirdRotor;
-            string text = OutPutTextBox.Text;
+            int firstRotorValue = (int)guna2NumericUpDown1.Value;
+            int secondRotorValue = (int)guna2NumericUpDown2.Value;
+            int thirdRotorValue = (int)guna2NumericUpDown3.Value;
+            string text = InputTextBox.Text;
             if (text == " ")
             {
                 SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
@@ -245,11 +245,17 @@ public UC_Enigma()
                     }
                     n++;
                 }
+                Enigma enigma = new Enigma(firstRotorValue, secondRotorValue, thirdRotorValue, plugBoard);
+                string cryptedMessage = enigma.Crypt(text.ToLower());
                 string fileName = $"{firstRotorValue}_{secondRotorValue}_{thirdRotorValue}";
                 using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{fileName}_{plugBoardName}Crypted.txt"))
                 {
-                    sr.WriteLine(text);
+                    sr.WriteLine(cryptedMessage);
                 }
+                InputTextBox.Text = string.Empty;
+                guna2NumericUpDown1.Value = enigma.FirstRotor.Vlaue;
+                guna2NumericUpDown2.Value = enigma.SecondRotor.Vlaue;
+                guna2NumericUpDown3.Value = enigma.ThirdRotor.Vlaue;
 
                 InfoBox infoBox = new InfoBox();
                 infoBox.Show();
@@ -289,7 +295,7 @@ public UC_Enigma()
                     StreamReader streamReader = new StreamReader(fileDialog.FileName);
                     string messageToCrypt = streamReader.ReadToEnd();
                     streamReader.Close();
-                    string decryptedMessage = enigma.Crypt(messageToCrypt);
+                    string decryptedMessage = enigma.Crypt(messageToCrypt.ToLower());
                     StringBuilder sb = new StringBuilder();
                     for (int i = 0; i < args.Length - 1; i++)
                     {
