@@ -104,10 +104,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(231, 194);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(308, 239);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 19);
+            this.label1.Size = new System.Drawing.Size(23, 24);
             this.label1.TabIndex = 35;
             this.label1.Text = "Q";
             // 
@@ -116,10 +115,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(287, 194);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(383, 239);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 19);
+            this.label2.Size = new System.Drawing.Size(26, 24);
             this.label2.TabIndex = 36;
             this.label2.Text = "W";
             // 
@@ -128,10 +126,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(347, 194);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(463, 239);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 19);
+            this.label3.Size = new System.Drawing.Size(22, 24);
             this.label3.TabIndex = 37;
             this.label3.Text = "E";
             // 
@@ -140,10 +137,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(406, 194);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(541, 239);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 19);
+            this.label4.Size = new System.Drawing.Size(24, 24);
             this.label4.TabIndex = 38;
             this.label4.Text = "R";
             // 
@@ -152,10 +148,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(466, 194);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(621, 239);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(19, 19);
+            this.label5.Size = new System.Drawing.Size(22, 24);
             this.label5.TabIndex = 39;
             this.label5.Text = "T";
             // 
@@ -164,10 +159,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(526, 194);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(701, 239);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(17, 19);
+            this.label6.Size = new System.Drawing.Size(20, 24);
             this.label6.TabIndex = 40;
             this.label6.Text = "Z";
             // 
@@ -176,10 +170,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(584, 194);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(779, 239);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(20, 19);
+            this.label7.Size = new System.Drawing.Size(24, 24);
             this.label7.TabIndex = 41;
             this.label7.Text = "U";
             // 
@@ -188,10 +181,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(645, 194);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(860, 239);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 19);
+            this.label8.Size = new System.Drawing.Size(18, 24);
             this.label8.TabIndex = 42;
             this.label8.Text = "I";
             // 
@@ -200,10 +192,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(699, 194);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(932, 239);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 19);
+            this.label9.Size = new System.Drawing.Size(23, 24);
             this.label9.TabIndex = 43;
             this.label9.Text = "O";
             // 
@@ -212,10 +203,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(699, 285);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(932, 351);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(18, 19);
+            this.label10.Size = new System.Drawing.Size(21, 24);
             this.label10.TabIndex = 52;
             this.label10.Text = "L";
             // 
@@ -224,10 +214,9 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(643, 285);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(857, 351);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(22, 19);
+            this.label11.Size = new System.Drawing.Size(26, 24);
             this.label11.TabIndex = 51;
             this.label11.Text = "M";
             // 
@@ -236,10 +225,9 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(584, 285);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(779, 351);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(20, 19);
+            this.label12.Size = new System.Drawing.Size(23, 24);
             this.label12.TabIndex = 50;
             this.label12.Text = "N";
             // 
@@ -248,10 +236,9 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(526, 285);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(701, 351);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(20, 19);
+            this.label13.Size = new System.Drawing.Size(23, 24);
             this.label13.TabIndex = 49;
             this.label13.Text = "B";
             // 
@@ -260,10 +247,9 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(466, 285);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(621, 351);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(19, 19);
+            this.label14.Size = new System.Drawing.Size(22, 24);
             this.label14.TabIndex = 48;
             this.label14.Text = "V";
             // 
@@ -272,10 +258,9 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(405, 285);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(540, 351);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(18, 19);
+            this.label15.Size = new System.Drawing.Size(22, 24);
             this.label15.TabIndex = 47;
             this.label15.Text = "C";
             // 
@@ -284,10 +269,9 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(349, 285);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(465, 351);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(19, 19);
+            this.label16.Size = new System.Drawing.Size(22, 24);
             this.label16.TabIndex = 46;
             this.label16.Text = "X";
             // 
@@ -296,10 +280,9 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(289, 285);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(385, 351);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(19, 19);
+            this.label17.Size = new System.Drawing.Size(22, 24);
             this.label17.TabIndex = 45;
             this.label17.Text = "Y";
             // 
@@ -308,10 +291,9 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(231, 285);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(308, 351);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(19, 19);
+            this.label18.Size = new System.Drawing.Size(23, 24);
             this.label18.TabIndex = 44;
             this.label18.Text = "P";
             // 
@@ -320,10 +302,9 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(671, 236);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Location = new System.Drawing.Point(895, 290);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(21, 19);
+            this.label20.Size = new System.Drawing.Size(25, 24);
             this.label20.TabIndex = 60;
             this.label20.Text = "K";
             // 
@@ -332,10 +313,9 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(613, 236);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Location = new System.Drawing.Point(817, 290);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(18, 19);
+            this.label21.Size = new System.Drawing.Size(21, 24);
             this.label21.TabIndex = 59;
             this.label21.Text = "J";
             // 
@@ -344,10 +324,9 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(551, 236);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(735, 290);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(21, 19);
+            this.label22.Size = new System.Drawing.Size(25, 24);
             this.label22.TabIndex = 58;
             this.label22.Text = "H";
             // 
@@ -356,10 +335,9 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(494, 236);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Location = new System.Drawing.Point(659, 290);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(19, 19);
+            this.label23.Size = new System.Drawing.Size(22, 24);
             this.label23.TabIndex = 57;
             this.label23.Text = "G";
             // 
@@ -368,10 +346,9 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(435, 236);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Location = new System.Drawing.Point(580, 290);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(18, 19);
+            this.label24.Size = new System.Drawing.Size(21, 24);
             this.label24.TabIndex = 56;
             this.label24.Text = "F";
             // 
@@ -380,10 +357,9 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(375, 236);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Location = new System.Drawing.Point(500, 290);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(19, 19);
+            this.label25.Size = new System.Drawing.Size(23, 24);
             this.label25.TabIndex = 55;
             this.label25.Text = "D";
             // 
@@ -392,10 +368,9 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(319, 236);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Location = new System.Drawing.Point(425, 290);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(18, 19);
+            this.label26.Size = new System.Drawing.Size(21, 24);
             this.label26.TabIndex = 54;
             this.label26.Text = "S";
             // 
@@ -404,10 +379,9 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(259, 236);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Location = new System.Drawing.Point(345, 290);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(19, 19);
+            this.label27.Size = new System.Drawing.Size(22, 24);
             this.label27.TabIndex = 53;
             this.label27.Text = "A";
             // 
@@ -418,10 +392,10 @@
             this.OCheckBox.CheckedState.BorderThickness = 0;
             this.OCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.OCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.OCheckBox.Location = new System.Drawing.Point(694, 216);
-            this.OCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.OCheckBox.Location = new System.Drawing.Point(925, 266);
+            this.OCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OCheckBox.Name = "OCheckBox";
-            this.OCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.OCheckBox.Size = new System.Drawing.Size(32, 30);
             this.OCheckBox.TabIndex = 69;
             this.OCheckBox.Text = "guna2CustomCheckBox9";
             this.OCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -437,10 +411,10 @@
             this.QCheckBox.CheckedState.BorderThickness = 0;
             this.QCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.QCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.QCheckBox.Location = new System.Drawing.Point(226, 216);
-            this.QCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QCheckBox.Location = new System.Drawing.Point(301, 266);
+            this.QCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QCheckBox.Name = "QCheckBox";
-            this.QCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.QCheckBox.Size = new System.Drawing.Size(32, 30);
             this.QCheckBox.TabIndex = 87;
             this.QCheckBox.Text = "guna2CustomCheckBox1";
             this.QCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -456,10 +430,10 @@
             this.WCheckBox.CheckedState.BorderThickness = 0;
             this.WCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.WCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.WCheckBox.Location = new System.Drawing.Point(284, 216);
-            this.WCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WCheckBox.Location = new System.Drawing.Point(379, 266);
+            this.WCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WCheckBox.Name = "WCheckBox";
-            this.WCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.WCheckBox.Size = new System.Drawing.Size(32, 30);
             this.WCheckBox.TabIndex = 88;
             this.WCheckBox.Text = "guna2CustomCheckBox2";
             this.WCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -475,10 +449,10 @@
             this.ECheckBox.CheckedState.BorderThickness = 0;
             this.ECheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.ECheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.ECheckBox.Location = new System.Drawing.Point(341, 216);
-            this.ECheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ECheckBox.Location = new System.Drawing.Point(455, 266);
+            this.ECheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ECheckBox.Name = "ECheckBox";
-            this.ECheckBox.Size = new System.Drawing.Size(24, 24);
+            this.ECheckBox.Size = new System.Drawing.Size(32, 30);
             this.ECheckBox.TabIndex = 89;
             this.ECheckBox.Text = "guna2CustomCheckBox3";
             this.ECheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -494,10 +468,10 @@
             this.RCheckBox.CheckedState.BorderThickness = 0;
             this.RCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.RCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.RCheckBox.Location = new System.Drawing.Point(401, 216);
-            this.RCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RCheckBox.Location = new System.Drawing.Point(535, 266);
+            this.RCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RCheckBox.Name = "RCheckBox";
-            this.RCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.RCheckBox.Size = new System.Drawing.Size(32, 30);
             this.RCheckBox.TabIndex = 90;
             this.RCheckBox.Text = "guna2CustomCheckBox4";
             this.RCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -513,10 +487,10 @@
             this.TCheckBox.CheckedState.BorderThickness = 0;
             this.TCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.TCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.TCheckBox.Location = new System.Drawing.Point(461, 216);
-            this.TCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TCheckBox.Location = new System.Drawing.Point(615, 266);
+            this.TCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TCheckBox.Name = "TCheckBox";
-            this.TCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.TCheckBox.Size = new System.Drawing.Size(32, 30);
             this.TCheckBox.TabIndex = 91;
             this.TCheckBox.Text = "guna2CustomCheckBox5";
             this.TCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -532,10 +506,10 @@
             this.ZCheckBox.CheckedState.BorderThickness = 0;
             this.ZCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.ZCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.ZCheckBox.Location = new System.Drawing.Point(523, 216);
-            this.ZCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ZCheckBox.Location = new System.Drawing.Point(697, 266);
+            this.ZCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ZCheckBox.Name = "ZCheckBox";
-            this.ZCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.ZCheckBox.Size = new System.Drawing.Size(32, 30);
             this.ZCheckBox.TabIndex = 92;
             this.ZCheckBox.Text = "guna2CustomCheckBox6";
             this.ZCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -551,10 +525,10 @@
             this.UCheckBox.CheckedState.BorderThickness = 0;
             this.UCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.UCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.UCheckBox.Location = new System.Drawing.Point(579, 216);
-            this.UCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UCheckBox.Location = new System.Drawing.Point(772, 266);
+            this.UCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UCheckBox.Name = "UCheckBox";
-            this.UCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.UCheckBox.Size = new System.Drawing.Size(32, 30);
             this.UCheckBox.TabIndex = 93;
             this.UCheckBox.Text = "guna2CustomCheckBox7";
             this.UCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -570,10 +544,10 @@
             this.ICheckBox.CheckedState.BorderThickness = 0;
             this.ICheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.ICheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.ICheckBox.Location = new System.Drawing.Point(639, 216);
-            this.ICheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ICheckBox.Location = new System.Drawing.Point(852, 266);
+            this.ICheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ICheckBox.Name = "ICheckBox";
-            this.ICheckBox.Size = new System.Drawing.Size(24, 24);
+            this.ICheckBox.Size = new System.Drawing.Size(32, 30);
             this.ICheckBox.TabIndex = 94;
             this.ICheckBox.Text = "guna2CustomCheckBox8";
             this.ICheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -589,10 +563,10 @@
             this.MCheckBox.CheckedState.BorderThickness = 0;
             this.MCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.MCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.MCheckBox.Location = new System.Drawing.Point(639, 307);
-            this.MCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MCheckBox.Location = new System.Drawing.Point(852, 378);
+            this.MCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MCheckBox.Name = "MCheckBox";
-            this.MCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.MCheckBox.Size = new System.Drawing.Size(32, 30);
             this.MCheckBox.TabIndex = 103;
             this.MCheckBox.Text = "guna2CustomCheckBox19";
             this.MCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -608,10 +582,10 @@
             this.NCheckBox.CheckedState.BorderThickness = 0;
             this.NCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.NCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.NCheckBox.Location = new System.Drawing.Point(579, 307);
-            this.NCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NCheckBox.Location = new System.Drawing.Point(772, 378);
+            this.NCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NCheckBox.Name = "NCheckBox";
-            this.NCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.NCheckBox.Size = new System.Drawing.Size(32, 30);
             this.NCheckBox.TabIndex = 102;
             this.NCheckBox.Text = "guna2CustomCheckBox28";
             this.NCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -627,10 +601,10 @@
             this.BCheckBox.CheckedState.BorderThickness = 0;
             this.BCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.BCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.BCheckBox.Location = new System.Drawing.Point(523, 307);
-            this.BCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BCheckBox.Location = new System.Drawing.Point(697, 378);
+            this.BCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BCheckBox.Name = "BCheckBox";
-            this.BCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.BCheckBox.Size = new System.Drawing.Size(32, 30);
             this.BCheckBox.TabIndex = 101;
             this.BCheckBox.Text = "guna2CustomCheckBox29";
             this.BCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -646,10 +620,10 @@
             this.VCheckBox.CheckedState.BorderThickness = 0;
             this.VCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.VCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.VCheckBox.Location = new System.Drawing.Point(461, 307);
-            this.VCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VCheckBox.Location = new System.Drawing.Point(615, 378);
+            this.VCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.VCheckBox.Name = "VCheckBox";
-            this.VCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.VCheckBox.Size = new System.Drawing.Size(32, 30);
             this.VCheckBox.TabIndex = 100;
             this.VCheckBox.Text = "guna2CustomCheckBox30";
             this.VCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -665,10 +639,10 @@
             this.CCheckBox.CheckedState.BorderThickness = 0;
             this.CCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.CCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.CCheckBox.Location = new System.Drawing.Point(401, 307);
-            this.CCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CCheckBox.Location = new System.Drawing.Point(535, 378);
+            this.CCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CCheckBox.Name = "CCheckBox";
-            this.CCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.CCheckBox.Size = new System.Drawing.Size(32, 30);
             this.CCheckBox.TabIndex = 99;
             this.CCheckBox.Text = "guna2CustomCheckBox31";
             this.CCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -684,10 +658,10 @@
             this.XCheckBox.CheckedState.BorderThickness = 0;
             this.XCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.XCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.XCheckBox.Location = new System.Drawing.Point(341, 307);
-            this.XCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.XCheckBox.Location = new System.Drawing.Point(455, 378);
+            this.XCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.XCheckBox.Name = "XCheckBox";
-            this.XCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.XCheckBox.Size = new System.Drawing.Size(32, 30);
             this.XCheckBox.TabIndex = 98;
             this.XCheckBox.Text = "guna2CustomCheckBox32";
             this.XCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -703,10 +677,10 @@
             this.YCheckBox.CheckedState.BorderThickness = 0;
             this.YCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.YCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.YCheckBox.Location = new System.Drawing.Point(284, 307);
-            this.YCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.YCheckBox.Location = new System.Drawing.Point(379, 378);
+            this.YCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.YCheckBox.Name = "YCheckBox";
-            this.YCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.YCheckBox.Size = new System.Drawing.Size(32, 30);
             this.YCheckBox.TabIndex = 97;
             this.YCheckBox.Text = "guna2CustomCheckBox33";
             this.YCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -722,10 +696,10 @@
             this.PCheckBox.CheckedState.BorderThickness = 0;
             this.PCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.PCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.PCheckBox.Location = new System.Drawing.Point(226, 307);
-            this.PCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PCheckBox.Location = new System.Drawing.Point(301, 378);
+            this.PCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PCheckBox.Name = "PCheckBox";
-            this.PCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.PCheckBox.Size = new System.Drawing.Size(32, 30);
             this.PCheckBox.TabIndex = 96;
             this.PCheckBox.Text = "guna2CustomCheckBox34";
             this.PCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -741,10 +715,10 @@
             this.LCheckBox.CheckedState.BorderThickness = 0;
             this.LCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.LCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.LCheckBox.Location = new System.Drawing.Point(694, 307);
-            this.LCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LCheckBox.Location = new System.Drawing.Point(925, 378);
+            this.LCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LCheckBox.Name = "LCheckBox";
-            this.LCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.LCheckBox.Size = new System.Drawing.Size(32, 30);
             this.LCheckBox.TabIndex = 95;
             this.LCheckBox.Text = "guna2CustomCheckBox35";
             this.LCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -760,10 +734,10 @@
             this.KCheckBox.CheckedState.BorderThickness = 0;
             this.KCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.KCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.KCheckBox.Location = new System.Drawing.Point(665, 258);
-            this.KCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.KCheckBox.Location = new System.Drawing.Point(887, 318);
+            this.KCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.KCheckBox.Name = "KCheckBox";
-            this.KCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.KCheckBox.Size = new System.Drawing.Size(32, 30);
             this.KCheckBox.TabIndex = 112;
             this.KCheckBox.Text = "guna2CustomCheckBox10";
             this.KCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -779,10 +753,10 @@
             this.JCheckBox.CheckedState.BorderThickness = 0;
             this.JCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.JCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.JCheckBox.Location = new System.Drawing.Point(605, 258);
-            this.JCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.JCheckBox.Location = new System.Drawing.Point(807, 318);
+            this.JCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.JCheckBox.Name = "JCheckBox";
-            this.JCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.JCheckBox.Size = new System.Drawing.Size(32, 30);
             this.JCheckBox.TabIndex = 111;
             this.JCheckBox.Text = "guna2CustomCheckBox11";
             this.JCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -798,10 +772,10 @@
             this.HCheckBox.CheckedState.BorderThickness = 0;
             this.HCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.HCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.HCheckBox.Location = new System.Drawing.Point(549, 258);
-            this.HCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.HCheckBox.Location = new System.Drawing.Point(732, 318);
+            this.HCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HCheckBox.Name = "HCheckBox";
-            this.HCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.HCheckBox.Size = new System.Drawing.Size(32, 30);
             this.HCheckBox.TabIndex = 110;
             this.HCheckBox.Text = "guna2CustomCheckBox12";
             this.HCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -817,10 +791,10 @@
             this.GCheckBox.CheckedState.BorderThickness = 0;
             this.GCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.GCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.GCheckBox.Location = new System.Drawing.Point(487, 258);
-            this.GCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GCheckBox.Location = new System.Drawing.Point(649, 318);
+            this.GCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GCheckBox.Name = "GCheckBox";
-            this.GCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.GCheckBox.Size = new System.Drawing.Size(32, 30);
             this.GCheckBox.TabIndex = 109;
             this.GCheckBox.Text = "guna2CustomCheckBox13";
             this.GCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -836,10 +810,10 @@
             this.FCheckBox.CheckedState.BorderThickness = 0;
             this.FCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.FCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.FCheckBox.Location = new System.Drawing.Point(427, 258);
-            this.FCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FCheckBox.Location = new System.Drawing.Point(569, 318);
+            this.FCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FCheckBox.Name = "FCheckBox";
-            this.FCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.FCheckBox.Size = new System.Drawing.Size(32, 30);
             this.FCheckBox.TabIndex = 108;
             this.FCheckBox.Text = "guna2CustomCheckBox14";
             this.FCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -855,10 +829,10 @@
             this.DCheckBox.CheckedState.BorderThickness = 0;
             this.DCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.DCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.DCheckBox.Location = new System.Drawing.Point(367, 258);
-            this.DCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DCheckBox.Location = new System.Drawing.Point(489, 318);
+            this.DCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DCheckBox.Name = "DCheckBox";
-            this.DCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.DCheckBox.Size = new System.Drawing.Size(32, 30);
             this.DCheckBox.TabIndex = 107;
             this.DCheckBox.Text = "guna2CustomCheckBox15";
             this.DCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -874,10 +848,10 @@
             this.SCheckBox.CheckedState.BorderThickness = 0;
             this.SCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.SCheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.SCheckBox.Location = new System.Drawing.Point(310, 258);
-            this.SCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SCheckBox.Location = new System.Drawing.Point(413, 318);
+            this.SCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SCheckBox.Name = "SCheckBox";
-            this.SCheckBox.Size = new System.Drawing.Size(24, 24);
+            this.SCheckBox.Size = new System.Drawing.Size(32, 30);
             this.SCheckBox.TabIndex = 106;
             this.SCheckBox.Text = "guna2CustomCheckBox16";
             this.SCheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -893,10 +867,10 @@
             this.ACheckBox.CheckedState.BorderThickness = 0;
             this.ACheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.ACheckBox.CheckMarkColor = System.Drawing.Color.Transparent;
-            this.ACheckBox.Location = new System.Drawing.Point(253, 258);
-            this.ACheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ACheckBox.Location = new System.Drawing.Point(337, 318);
+            this.ACheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ACheckBox.Name = "ACheckBox";
-            this.ACheckBox.Size = new System.Drawing.Size(24, 24);
+            this.ACheckBox.Size = new System.Drawing.Size(32, 30);
             this.ACheckBox.TabIndex = 105;
             this.ACheckBox.Text = "guna2CustomCheckBox17";
             this.ACheckBox.UncheckedState.BorderColor = System.Drawing.Color.White;
@@ -919,13 +893,14 @@
             this.InputTextBox.Font = new System.Drawing.Font("Stencil", 10.2F);
             this.InputTextBox.ForeColor = System.Drawing.Color.White;
             this.InputTextBox.HoverState.BorderColor = System.Drawing.Color.Olive;
-            this.InputTextBox.Location = new System.Drawing.Point(13, 98);
+            this.InputTextBox.Location = new System.Drawing.Point(17, 121);
+            this.InputTextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.InputTextBox.Multiline = true;
             this.InputTextBox.Name = "InputTextBox";
             this.InputTextBox.PasswordChar = '\0';
             this.InputTextBox.PlaceholderText = "";
             this.InputTextBox.SelectedText = "";
-            this.InputTextBox.Size = new System.Drawing.Size(200, 370);
+            this.InputTextBox.Size = new System.Drawing.Size(267, 455);
             this.InputTextBox.TabIndex = 113;
             this.InputTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -943,14 +918,15 @@
             this.OutPutTextBox.Font = new System.Drawing.Font("Stencil", 10.2F);
             this.OutPutTextBox.ForeColor = System.Drawing.Color.White;
             this.OutPutTextBox.HoverState.BorderColor = System.Drawing.Color.Olive;
-            this.OutPutTextBox.Location = new System.Drawing.Point(734, 98);
+            this.OutPutTextBox.Location = new System.Drawing.Point(979, 121);
+            this.OutPutTextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.OutPutTextBox.Multiline = true;
             this.OutPutTextBox.Name = "OutPutTextBox";
             this.OutPutTextBox.PasswordChar = '\0';
             this.OutPutTextBox.PlaceholderText = "";
             this.OutPutTextBox.ReadOnly = true;
             this.OutPutTextBox.SelectedText = "";
-            this.OutPutTextBox.Size = new System.Drawing.Size(200, 370);
+            this.OutPutTextBox.Size = new System.Drawing.Size(267, 455);
             this.OutPutTextBox.TabIndex = 114;
             this.OutPutTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -959,10 +935,9 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(82, 60);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(109, 74);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(67, 22);
+            this.label19.Size = new System.Drawing.Size(84, 29);
             this.label19.TabIndex = 115;
             this.label19.Text = "Input";
             // 
@@ -971,10 +946,9 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(801, 60);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Location = new System.Drawing.Point(1068, 74);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(82, 22);
+            this.label28.Size = new System.Drawing.Size(103, 29);
             this.label28.TabIndex = 116;
             this.label28.Text = "Output";
             // 
@@ -982,14 +956,14 @@
             // 
             this.guna2NumericUpDown1.AutoRoundedCorners = true;
             this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown1.BorderRadius = 18;
+            this.guna2NumericUpDown1.BorderRadius = 23;
             this.guna2NumericUpDown1.BorderThickness = 0;
             this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NumericUpDown1.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2NumericUpDown1.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2NumericUpDown1.ForeColor = System.Drawing.Color.White;
-            this.guna2NumericUpDown1.Location = new System.Drawing.Point(269, 101);
-            this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2NumericUpDown1.Location = new System.Drawing.Point(359, 124);
+            this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2NumericUpDown1.Maximum = new decimal(new int[] {
             26,
             0,
@@ -1001,7 +975,7 @@
             0,
             0});
             this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
-            this.guna2NumericUpDown1.Size = new System.Drawing.Size(86, 39);
+            this.guna2NumericUpDown1.Size = new System.Drawing.Size(115, 48);
             this.guna2NumericUpDown1.TabIndex = 117;
             this.guna2NumericUpDown1.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.guna2NumericUpDown1.Value = new decimal(new int[] {
@@ -1014,14 +988,14 @@
             // 
             this.guna2NumericUpDown2.AutoRoundedCorners = true;
             this.guna2NumericUpDown2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown2.BorderRadius = 18;
+            this.guna2NumericUpDown2.BorderRadius = 23;
             this.guna2NumericUpDown2.BorderThickness = 0;
             this.guna2NumericUpDown2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NumericUpDown2.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2NumericUpDown2.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2NumericUpDown2.ForeColor = System.Drawing.Color.White;
-            this.guna2NumericUpDown2.Location = new System.Drawing.Point(426, 101);
-            this.guna2NumericUpDown2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2NumericUpDown2.Location = new System.Drawing.Point(568, 124);
+            this.guna2NumericUpDown2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2NumericUpDown2.Maximum = new decimal(new int[] {
             26,
             0,
@@ -1033,7 +1007,7 @@
             0,
             0});
             this.guna2NumericUpDown2.Name = "guna2NumericUpDown2";
-            this.guna2NumericUpDown2.Size = new System.Drawing.Size(86, 39);
+            this.guna2NumericUpDown2.Size = new System.Drawing.Size(115, 48);
             this.guna2NumericUpDown2.TabIndex = 118;
             this.guna2NumericUpDown2.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.guna2NumericUpDown2.Value = new decimal(new int[] {
@@ -1046,14 +1020,14 @@
             // 
             this.guna2NumericUpDown3.AutoRoundedCorners = true;
             this.guna2NumericUpDown3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown3.BorderRadius = 18;
+            this.guna2NumericUpDown3.BorderRadius = 23;
             this.guna2NumericUpDown3.BorderThickness = 0;
             this.guna2NumericUpDown3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NumericUpDown3.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2NumericUpDown3.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2NumericUpDown3.ForeColor = System.Drawing.Color.White;
-            this.guna2NumericUpDown3.Location = new System.Drawing.Point(586, 101);
-            this.guna2NumericUpDown3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.guna2NumericUpDown3.Location = new System.Drawing.Point(781, 124);
+            this.guna2NumericUpDown3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2NumericUpDown3.Maximum = new decimal(new int[] {
             26,
             0,
@@ -1065,7 +1039,7 @@
             0,
             0});
             this.guna2NumericUpDown3.Name = "guna2NumericUpDown3";
-            this.guna2NumericUpDown3.Size = new System.Drawing.Size(86, 39);
+            this.guna2NumericUpDown3.Size = new System.Drawing.Size(115, 48);
             this.guna2NumericUpDown3.TabIndex = 119;
             this.guna2NumericUpDown3.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.guna2NumericUpDown3.Value = new decimal(new int[] {
@@ -1079,10 +1053,9 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(286, 70);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Location = new System.Drawing.Point(385, 86);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(37, 19);
+            this.label29.Size = new System.Drawing.Size(44, 24);
             this.label29.TabIndex = 120;
             this.label29.Text = "1st";
             // 
@@ -1091,10 +1064,9 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(449, 70);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Location = new System.Drawing.Point(599, 86);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(39, 19);
+            this.label30.Size = new System.Drawing.Size(47, 24);
             this.label30.TabIndex = 121;
             this.label30.Text = "2nd";
             // 
@@ -1103,10 +1075,9 @@
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(612, 70);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label31.Location = new System.Drawing.Point(816, 86);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(39, 19);
+            this.label31.Size = new System.Drawing.Size(48, 24);
             this.label31.TabIndex = 122;
             this.label31.Text = "3rd";
             // 
@@ -1119,10 +1090,10 @@
             this.ConvertButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.ConvertButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConvertButton.ForeColor = System.Drawing.Color.White;
-            this.ConvertButton.Location = new System.Drawing.Point(401, 400);
-            this.ConvertButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ConvertButton.Location = new System.Drawing.Point(535, 492);
+            this.ConvertButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ConvertButton.Name = "ConvertButton";
-            this.ConvertButton.Size = new System.Drawing.Size(146, 48);
+            this.ConvertButton.Size = new System.Drawing.Size(195, 59);
             this.ConvertButton.TabIndex = 123;
             this.ConvertButton.Text = "Convert";
             this.ConvertButton.Click += new System.EventHandler(this.ConvertButton_Click);
@@ -1136,12 +1107,12 @@
             this.GenerateFileButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.GenerateFileButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerateFileButton.ForeColor = System.Drawing.Color.White;
-            this.GenerateFileButton.Location = new System.Drawing.Point(226, 400);
-            this.GenerateFileButton.Margin = new System.Windows.Forms.Padding(2);
+            this.GenerateFileButton.Location = new System.Drawing.Point(301, 492);
+            this.GenerateFileButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GenerateFileButton.Name = "GenerateFileButton";
-            this.GenerateFileButton.Size = new System.Drawing.Size(146, 48);
+            this.GenerateFileButton.Size = new System.Drawing.Size(195, 59);
             this.GenerateFileButton.TabIndex = 124;
-            this.GenerateFileButton.Text = "File Generater ";
+            this.GenerateFileButton.Text = "File Generator";
             this.GenerateFileButton.Click += new System.EventHandler(this.GenerateFileButton_Click);
             // 
             // label32
@@ -1149,10 +1120,9 @@
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(420, 23);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label32.Location = new System.Drawing.Point(560, 28);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(92, 25);
+            this.label32.Size = new System.Drawing.Size(117, 32);
             this.label32.TabIndex = 125;
             this.label32.Text = "Rotors";
             // 
@@ -1165,17 +1135,17 @@
             this.FileDecrypterButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.FileDecrypterButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FileDecrypterButton.ForeColor = System.Drawing.Color.White;
-            this.FileDecrypterButton.Location = new System.Drawing.Point(573, 400);
-            this.FileDecrypterButton.Margin = new System.Windows.Forms.Padding(2);
+            this.FileDecrypterButton.Location = new System.Drawing.Point(764, 492);
+            this.FileDecrypterButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FileDecrypterButton.Name = "FileDecrypterButton";
-            this.FileDecrypterButton.Size = new System.Drawing.Size(146, 48);
+            this.FileDecrypterButton.Size = new System.Drawing.Size(195, 59);
             this.FileDecrypterButton.TabIndex = 126;
-            this.FileDecrypterButton.Text = "File Decrypter";
+            this.FileDecrypterButton.Text = "File Decryptor";
             this.FileDecrypterButton.Click += new System.EventHandler(this.FileDecrypterButton_Click);
             // 
             // UC_Enigma
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(71)))), ((int)(((byte)(58)))));
             this.Controls.Add(this.FileDecrypterButton);
@@ -1244,9 +1214,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UC_Enigma";
-            this.Size = new System.Drawing.Size(946, 492);
+            this.Size = new System.Drawing.Size(1261, 606);
             this.Load += new System.EventHandler(this.UC_Enigma_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown2)).EndInit();
