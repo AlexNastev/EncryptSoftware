@@ -54,6 +54,12 @@
   <ItemGroup>
     <Compile Include="EnigmaCode\Enigma.cs" />
     <Compile Include="EnigmaCode\Rotor.cs" />
+    <Compile Include="InfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoBox.Designer.cs">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SomethingWentWrong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SomethingWentWrong.Designer.cs">
+      <DependentUpon>SomethingWentWrong.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UC_File.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -86,6 +98,9 @@
     <Compile Include="UserControls\UC_Morse.Designer.cs">
       <DependentUpon>UC_Morse.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="InfoBox.resx">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +113,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SomethingWentWrong.resx">
+      <DependentUpon>SomethingWentWrong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_Enigma.resx">
       <DependentUpon>UC_Enigma.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +142,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Crypted&amp;DecryptedFiles\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
