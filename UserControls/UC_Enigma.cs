@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace EncryptSoftware.UserControls
 {
@@ -65,11 +66,18 @@ public UC_Enigma()
                 chars.Remove(letter);
             }
         }
+        int firstRotor = 0;
+        int secondRotor = 0;
+        int thirdRotor = 0;
+
         private void ConvertButton_Click(object sender, EventArgs e)
         {
             int firstRotorValue = (int)guna2NumericUpDown1.Value;
             int secondRotorValue = (int)guna2NumericUpDown2.Value;
             int thirdRotorValue = (int)guna2NumericUpDown3.Value;
+            firstRotor = firstRotorValue;
+            secondRotor = secondRotorValue;
+            thirdRotor = thirdRotorValue;
 
             //ToDo forfill plugboard dic
              
@@ -79,6 +87,9 @@ public UC_Enigma()
             guna2NumericUpDown1.Value = enigma.FirstRotor.Vlaue;
             guna2NumericUpDown2.Value = enigma.SecondRotor.Vlaue;
             guna2NumericUpDown3.Value = enigma.ThirdRotor.Vlaue;
+            InputTextBox.Text = string.Empty;
+            InputTextBox.Text = string.Empty;
+            InputTextBox.Text = string.Empty;
 
         }
 
@@ -210,6 +221,42 @@ public UC_Enigma()
         private void LCheckBox_Click(object sender, EventArgs e)
         {
             CheckBoxClick(sender);
+        }
+
+        private void GenerateFileButton_Click(object sender, EventArgs e)
+        {
+            int firstRotorValue = firstRotor;
+            int secondRotorValue = secondRotor;
+            int thirdRotorValue = thirdRotor;
+            string text = OutPutTextBox.Text;
+            string plugBoardName = string.Empty;
+            int n = 0;
+            foreach (var kvp in plugBoard)
+            {
+                if (n % 2 == 0)
+                {
+                    plugBoardName += $"{kvp.Key}={kvp.Value}_";
+                }
+                n++;
+            }
+            string fileName = $"{firstRotorValue}_{secondRotorValue}_{thirdRotorValue}";
+            using(StreamWriter sr = new StreamWriter($"../../{fileName}_{plugBoardName}Crypted.txt"))
+            {
+                sr.WriteLine(text);
+            }
+          
+        }
+
+        private void FileDecrypterButton_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string fileName = fileDialog.FileName;
+                string[] path = fileName.Split('/');
+            }
+            
+            
         }
     }
 }
