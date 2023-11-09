@@ -59,7 +59,7 @@ namespace EncryptSoftware.FileEncryptionCode
         }
         public void FileUnclock(string filePath, string password)
         {
-            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
+            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/C.txt", true);
 
             writer.WriteLine($"{filePath}?{password}?#UNLOCKED#");
             writer.Close();
