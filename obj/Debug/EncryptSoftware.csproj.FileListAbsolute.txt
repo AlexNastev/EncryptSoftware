@@ -33,3 +33,4 @@ C:\Users\Alex\Desktop\EncryptSoftware-main\EncryptSoftware-main\obj\Debug\Encryp
 C:\Users\Alex\Desktop\EncryptSoftware-main\EncryptSoftware-main\obj\Debug\EncryptSoftware.pdb
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.InfoBox.resources
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.SomethingWentWrong.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.InvalidPassword.resources

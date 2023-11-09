@@ -1,0 +1,2 @@
+C:\Users\alexn\Desktop\me.jpg=123=#LOCKED#
+C:\Users\alexn\Desktop\me.jpg=123=#UNLOCKED#
