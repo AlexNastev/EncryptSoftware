@@ -88,10 +88,10 @@
             this.outputTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.outputTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.outputTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.outputTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.outputTextBox.FocusedState.BorderColor = System.Drawing.Color.Gold;
             this.outputTextBox.Font = new System.Drawing.Font("Stencil", 11F);
             this.outputTextBox.ForeColor = System.Drawing.Color.White;
-            this.outputTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.outputTextBox.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.outputTextBox.Location = new System.Drawing.Point(838, 160);
             this.outputTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.outputTextBox.Multiline = true;
@@ -114,10 +114,10 @@
             this.inputTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.inputTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.inputTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.inputTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.inputTextBox.FocusedState.BorderColor = System.Drawing.Color.Gold;
             this.inputTextBox.Font = new System.Drawing.Font("Stencil", 11F);
             this.inputTextBox.ForeColor = System.Drawing.Color.White;
-            this.inputTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.inputTextBox.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.inputTextBox.Location = new System.Drawing.Point(162, 160);
             this.inputTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.inputTextBox.Multiline = true;

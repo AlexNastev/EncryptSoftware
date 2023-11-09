@@ -889,12 +889,12 @@
             this.InputTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.InputTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.InputTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
-            this.InputTextBox.FocusedState.BorderColor = System.Drawing.Color.Olive;
+            this.InputTextBox.FocusedState.BorderColor = System.Drawing.Color.Gold;
             this.InputTextBox.Font = new System.Drawing.Font("Stencil", 10.2F);
             this.InputTextBox.ForeColor = System.Drawing.Color.White;
-            this.InputTextBox.HoverState.BorderColor = System.Drawing.Color.Olive;
+            this.InputTextBox.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.InputTextBox.Location = new System.Drawing.Point(17, 121);
-            this.InputTextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.InputTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.InputTextBox.Multiline = true;
             this.InputTextBox.Name = "InputTextBox";
             this.InputTextBox.PasswordChar = '\0';
@@ -919,7 +919,7 @@
             this.OutPutTextBox.ForeColor = System.Drawing.Color.White;
             this.OutPutTextBox.HoverState.BorderColor = System.Drawing.Color.Olive;
             this.OutPutTextBox.Location = new System.Drawing.Point(979, 121);
-            this.OutPutTextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.OutPutTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.OutPutTextBox.Multiline = true;
             this.OutPutTextBox.Name = "OutPutTextBox";
             this.OutPutTextBox.PasswordChar = '\0';

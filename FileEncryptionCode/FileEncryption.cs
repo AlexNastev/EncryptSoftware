@@ -53,7 +53,7 @@ namespace EncryptSoftware.FileEncryptionCode
         public void AddPasswordToFile(string filePath, string password)
         {
             StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
-            writer.WriteLine($"{filePath}={password}=#LOCKED#");
+            writer.WriteLine($"{filePath}?{password}?#LOCKED#");
 
             writer.Close();
         }
@@ -61,7 +61,7 @@ namespace EncryptSoftware.FileEncryptionCode
         {
             StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
 
-            writer.WriteLine($"{filePath}={password}=#UNLOCKED#");
+            writer.WriteLine($"{filePath}?{password}?#UNLOCKED#");
             writer.Close();
         }
 
@@ -74,7 +74,7 @@ namespace EncryptSoftware.FileEncryptionCode
 
             for (int i = lines.Length - 1; i >= 0; i--)
             {
-                var parts = lines[i].Split('=').ToArray();
+                var parts = lines[i].Split('?').ToArray();
 
                 string key = parts[0].Trim();
                 string value = parts[parts.Length - 2].Trim();
