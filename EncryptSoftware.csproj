@@ -55,6 +55,7 @@
     <Compile Include="EnigmaCode\BGEnigma.cs" />
     <Compile Include="EnigmaCode\Enigma.cs" />
     <Compile Include="EnigmaCode\Rotor.cs" />
+    <Compile Include="EnigmaCode\RUEnigma.cs" />
     <Compile Include="FileEncryptionCode\FileEncryption.cs" />
     <Compile Include="InfoBox.cs">
       <SubType>Form</SubType>

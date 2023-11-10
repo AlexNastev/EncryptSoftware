@@ -18,10 +18,13 @@ namespace EncryptSoftware.UserControls
     {
         List<char> ENchars;
         List<char> BGchars;
+        List<char> RUchars;
         Dictionary<char, char> ENplugBoard;
         Dictionary<char, char> BGplugBoard;
+        Dictionary<char, char> RUplugBoard;
         Dictionary<char, Guna.UI2.WinForms.Guna2CustomCheckBox> ENletterToButton;
         Dictionary<char, Guna.UI2.WinForms.Guna2CustomCheckBox> BGletterToButton;
+        Dictionary<char, Guna.UI2.WinForms.Guna2CustomCheckBox> RUletterToButton;
 
         public UC_Enigma()
         {
@@ -32,8 +35,20 @@ namespace EncryptSoftware.UserControls
         {
             BGplugBoard = new Dictionary<char, char>();
             ENplugBoard = new Dictionary<char, char>();
+            RUplugBoard = new Dictionary<char, char>();
             ENchars = new List<char>();
             BGchars = new List<char>();
+            RUchars = new List<char>();
+            RUletterToButton = new Dictionary<char, Guna.UI2.WinForms.Guna2CustomCheckBox>()
+            {
+                {'а', АRUCheckBox}, {'б', БRUCheckBox}, {'в', ВRUCheckBox}, {'г', ГRUCheckBox}, {'д', ДRUCheckBox},
+                {'е', ЕRUCheckBox}, {'ж', ЖRUCheckBox}, {'з', ЗRUCheckBox}, {'и', ИRUCheckBox}, {'й', ЙRUCheckBox},
+                {'к', КRUCheckBox}, {'л', ЛRUCheckBox}, {'м', МRUCheckBox}, {'н', НRUCheckBox}, {'о', ОRUCheckBox},
+                {'п', ПRUCheckBox}, {'р', РRUCheckBox}, {'с', СRUCheckBox}, {'т', ТRUCheckBox}, {'у', УRUCheckBox},
+                {'ф', ФRUCheckBox}, {'х', ХRUCheckBox}, {'ц', ЦRUCheckBox}, {'ч', ЧRUCheckBox}, {'ш', ШRUCheckBox},
+                {'щ', ЩRUCheckBox}, {'ъ', ЪRUCheckBox}, {'ь', ЬRUCheckBox}, {'ю', ЮRUCheckBox}, {'я', ЯRUCheckBox},
+                {'ы', ЫRUCheckBox}, {'ё', ЁRUCheckBox}, {'Э', ЭRUCheckBox}
+            };
             BGletterToButton = new Dictionary<char, Guna.UI2.WinForms.Guna2CustomCheckBox>()
             {
                 {'а', АCheckBox}, {'б', БCheckBox}, {'в', ВCheckBox}, {'г', ГCheckBox}, {'д', ДCheckBox},
@@ -116,6 +131,35 @@ namespace EncryptSoftware.UserControls
                     BGchars.Remove(letter);
                 }
             }
+            else if (RURadioButton.Checked)
+            {
+                Guna.UI2.WinForms.Guna2CustomCheckBox checkBox = (Guna.UI2.WinForms.Guna2CustomCheckBox)sender; // Cast sender to CheckBox
+
+                char letter = char.ToLower(checkBox.Name[0]);
+                var workingButton = RUletterToButton[char.ToLower(letter)];
+                if (workingButton.Checked)
+                {
+                    RUchars.Add(letter);
+                    if (RUchars.Count == 2)
+                    {
+                        RUplugBoard[RUchars[0]] = RUchars[1];
+                        RUplugBoard[RUchars[1]] = RUchars[0];
+                        RUchars.Clear();
+                    }
+                }
+                else
+                {
+                    if (RUplugBoard.ContainsKey(letter))
+                    {
+                        var value = RUplugBoard[letter];
+                        RUletterToButton[value].Checked = false;
+                        RUplugBoard.Remove(letter);
+                        RUplugBoard.Remove(value);
+
+                    }
+                    RUchars.Remove(letter);
+                }
+            }
             
         }
         int firstRotor = 1;
@@ -160,6 +204,25 @@ namespace EncryptSoftware.UserControls
                 BGFirstRotor.Value = enigma.FirstRotor.Vlaue;
                 BGSecondRotor.Value = enigma.SecondRotor.Vlaue;
                 BGThirdRotor.Value = enigma.ThirdRotor.Vlaue;
+                InputTextBox.Text = string.Empty;
+            }
+            else if (RURadioButton.Checked)
+            {
+                int firstRotorValue = (int)RUFirstRotor.Value;
+                int secondRotorValue = (int)RUSecondRotor.Value;
+                int thirdRotorValue = (int)RUThirdRotor.Value;
+                firstRotor = firstRotorValue;
+                secondRotor = secondRotorValue;
+                thirdRotor = thirdRotorValue;
+
+                //ToDo forfill plugboard dic
+
+                RUEnigma enigma = new RUEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, RUplugBoard);
+                string messageToCrypt = InputTextBox.Text.ToLower();
+                OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
+                RUFirstRotor.Value = enigma.FirstRotor.Vlaue;
+                RUSecondRotor.Value = enigma.SecondRotor.Vlaue;
+                RUThirdRotor.Value = enigma.ThirdRotor.Vlaue;
                 InputTextBox.Text = string.Empty;
             }
             
@@ -375,7 +438,45 @@ namespace EncryptSoftware.UserControls
                     infoBox.Show();
                 }
             }
-            
+            else if(RURadioButton.Checked)
+            {
+                int firstRotorValue = (int)RUFirstRotor.Value;
+                int secondRotorValue = (int)RUSecondRotor.Value;
+                int thirdRotorValue = (int)RUThirdRotor.Value;
+                string text = InputTextBox.Text;
+                if (text == " ")
+                {
+                    SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                    somethingWentWrong.Show();
+                }
+                else
+                {
+                    string plugBoardName = string.Empty;
+                    int n = 0;
+                    foreach (var kvp in RUplugBoard)
+                    {
+                        if (n % 2 == 0)
+                        {
+                            plugBoardName += $"{kvp.Key}={kvp.Value}_";
+                        }
+                        n++;
+                    }
+                    RUEnigma enigma = new RUEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, RUplugBoard);
+                    string cryptedMessage = enigma.Crypt(text.ToLower());
+                    string fileName = $"{firstRotorValue}_{secondRotorValue}_{thirdRotorValue}";
+                    using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{fileName}_{plugBoardName}Crypted.txt"))
+                    {
+                        sr.WriteLine(cryptedMessage);
+                    }
+                    InputTextBox.Text = string.Empty;
+                    RUFirstRotor.Value = enigma.FirstRotor.Vlaue;
+                    RUSecondRotor.Value = enigma.SecondRotor.Vlaue;
+                    RUThirdRotor.Value = enigma.ThirdRotor.Vlaue;
+
+                    InfoBox infoBox = new InfoBox();
+                    infoBox.Show();
+                }
+            }
         }
 
         private void FileDecrypterButton_Click(object sender, EventArgs e)
@@ -500,7 +601,65 @@ namespace EncryptSoftware.UserControls
                     somethingWentWrong.Show();
                 }
             }
-            
+            else if (RURadioButton.Checked)
+            {
+                OpenFileDialog fileDialog = new OpenFileDialog();
+                if (fileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string[] path = fileDialog.FileName.Split('\\');
+                    string fileName = path[path.Length - 1];
+                    string pattern = @"Crypted\.";
+                    Regex regex = new Regex(pattern);
+                    if (regex.IsMatch(fileName))
+                    {
+                        string[] args = fileName.Split('_');
+                        int firstRotorValue = int.Parse(args[0]);
+                        int secondRotorValue = int.Parse(args[1]);
+                        int thirdRotorValue = int.Parse(args[2]);
+                        Dictionary<char, char> plugBoardHere = new Dictionary<char, char>();
+                        for (int i = 3; i < args.Length - 1; i++)
+                        {
+                            string[] letters = args[i].Split('=');
+                            plugBoardHere[char.Parse(letters[0])] = char.Parse(letters[1]);
+                            plugBoardHere[char.Parse(letters[1])] = char.Parse(letters[0]);
+                        }
+
+                        firstRotor = firstRotorValue;
+                        secondRotor = secondRotorValue;
+                        thirdRotor = thirdRotorValue;
+
+                        //ToDo forfill plugboard dic
+
+                        RUEnigma enigma = new RUEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, plugBoardHere);
+                        StreamReader streamReader = new StreamReader(fileDialog.FileName);
+                        string messageToCrypt = streamReader.ReadToEnd();
+                        streamReader.Close();
+                        string decryptedMessage = enigma.Crypt(messageToCrypt.ToLower());
+                        StringBuilder sb = new StringBuilder();
+                        for (int i = 0; i < args.Length - 1; i++)
+                        {
+                            sb.Append(args[i] + '_');
+                        }
+                        sb.Append("Decrypted.txt");
+                        using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{sb}"))
+                        {
+                            sr.WriteLine(decryptedMessage);
+                        }
+                        InfoBox infoBox = new InfoBox();
+                        infoBox.Show();
+                    }
+                    else
+                    {
+                        SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                        somethingWentWrong.Show();
+                    }
+                }
+                else
+                {
+                    SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                    somethingWentWrong.Show();
+                }
+            }
         }
 
         private void ENRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -539,26 +698,6 @@ namespace EncryptSoftware.UserControls
             ConvertButton.Font = new Font(RotorsLabel.Font.FontFamily, 13, FontStyle.Regular);
 
         }
-
-        private void guna2NumericUpDown2_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GenerateFileButton_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ConvertButton_Click_1(object sender, EventArgs e)
-        {
-
-        }
-        private void FileDecrypterButton_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void BGRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             if (BGRadioButton.Checked)
@@ -741,6 +880,206 @@ namespace EncryptSoftware.UserControls
         }
 
         private void БCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void RURadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RURadioButton.Checked)
+            {
+                RUControlPanel.Show();
+            }
+            else
+            {
+                RUControlPanel.Hide();
+            }
+
+            RotorsLabel.Text = "Роторы";
+            RotorsLabel.Font = new Font(RotorsLabel.Font, FontStyle.Bold);
+
+            InputLabel.Text = "Вход";
+            InputLabel.Font = new Font(RotorsLabel.Font, FontStyle.Bold);
+
+            OutputLabel.Text = "Выход";
+            OutputLabel.Font = new Font(RotorsLabel.Font, FontStyle.Bold);
+
+            GenerateFileButton.Text = "Сделать файл";
+            GenerateFileButton.Font = new Font(RotorsLabel.Font.FontFamily, 13, FontStyle.Bold);
+
+            FileDecrypterButton.Text = "Расшифровать файл";
+            FileDecrypterButton.Font = new Font(RotorsLabel.Font.FontFamily, 13, FontStyle.Bold);
+
+            ConvertButton.Text = "Трансформировать";
+            ConvertButton.Font = new Font(RotorsLabel.Font.FontFamily, 13, FontStyle.Bold);
+
+            InputTextBox.Font = new Font(RotorsLabel.Font.FontFamily, 13, FontStyle.Regular);
+            OutPutTextBox.Font = new Font(RotorsLabel.Font.FontFamily, 13, FontStyle.Regular);
+            InputTextBox.Text = string.Empty;
+            OutPutTextBox.Text = string.Empty;
+        }
+
+        private void ЙRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЦRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void УRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void КRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЕRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void НRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ГRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ШRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЩRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЗRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ХRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЪRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЁRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ФRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЫRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ВRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void АRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ПRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void РRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ОRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЛRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ДRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЖRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЭRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЯRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЧRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void СRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void МRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ИRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ТRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЬRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void БRUCheckBox_Click(object sender, EventArgs e)
+        {
+            CheckBoxClick(sender);
+        }
+
+        private void ЮRUCheckBox_Click(object sender, EventArgs e)
         {
             CheckBoxClick(sender);
         }
