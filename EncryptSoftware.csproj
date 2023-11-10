@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnigmaCode\BGEnigma.cs" />
     <Compile Include="EnigmaCode\Enigma.cs" />
     <Compile Include="EnigmaCode\Rotor.cs" />
     <Compile Include="FileEncryptionCode\FileEncryption.cs" />
