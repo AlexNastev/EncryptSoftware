@@ -73,6 +73,7 @@
             this.convertButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.convertButton.Font = new System.Drawing.Font("Stencil", 13.8F);
             this.convertButton.ForeColor = System.Drawing.Color.White;
+            this.convertButton.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.convertButton.Location = new System.Drawing.Point(546, 449);
             this.convertButton.Margin = new System.Windows.Forms.Padding(4);
             this.convertButton.Name = "convertButton";
