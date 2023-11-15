@@ -69,7 +69,10 @@ namespace EncryptSoftware.UserControls
             };
             ENRadioButton.Checked = true;
 
-            
+            guna2NumericUpDown1.TabIndex = 1;
+            guna2NumericUpDown2.TabIndex = 2;
+            guna2NumericUpDown3.TabIndex = 3;
+
         }
         private void CheckBoxClick(object sender)
         {
@@ -1082,6 +1085,11 @@ namespace EncryptSoftware.UserControls
         private void ЮRUCheckBox_Click(object sender, EventArgs e)
         {
             CheckBoxClick(sender);
+        }
+
+        private void InputLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

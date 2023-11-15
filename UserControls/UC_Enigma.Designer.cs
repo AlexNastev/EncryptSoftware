@@ -271,7 +271,7 @@
             this.InputTextBox.ForeColor = System.Drawing.Color.White;
             this.InputTextBox.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.InputTextBox.Location = new System.Drawing.Point(17, 121);
-            this.InputTextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.InputTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.InputTextBox.Multiline = true;
             this.InputTextBox.Name = "InputTextBox";
             this.InputTextBox.PasswordChar = '\0';
@@ -296,7 +296,7 @@
             this.OutPutTextBox.ForeColor = System.Drawing.Color.White;
             this.OutPutTextBox.HoverState.BorderColor = System.Drawing.Color.Olive;
             this.OutPutTextBox.Location = new System.Drawing.Point(979, 121);
-            this.OutPutTextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.OutPutTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.OutPutTextBox.Multiline = true;
             this.OutPutTextBox.Name = "OutPutTextBox";
             this.OutPutTextBox.PasswordChar = '\0';
@@ -317,6 +317,7 @@
             this.InputLabel.Size = new System.Drawing.Size(81, 27);
             this.InputLabel.TabIndex = 115;
             this.InputLabel.Text = "Input";
+            this.InputLabel.Click += new System.EventHandler(this.InputLabel_Click);
             // 
             // OutputLabel
             // 
@@ -351,6 +352,7 @@
             this.ENRadioButton.Name = "ENRadioButton";
             this.ENRadioButton.Size = new System.Drawing.Size(20, 20);
             this.ENRadioButton.TabIndex = 1111;
+            this.ENRadioButton.TabStop = false;
             this.ENRadioButton.Text = "EN";
             this.ENRadioButton.UncheckedState.BorderColor = System.Drawing.Color.White;
             this.ENRadioButton.UncheckedState.BorderThickness = 2;
@@ -369,6 +371,7 @@
             this.BGRadioButton.Name = "BGRadioButton";
             this.BGRadioButton.Size = new System.Drawing.Size(20, 20);
             this.BGRadioButton.TabIndex = 1112;
+            this.BGRadioButton.TabStop = false;
             this.BGRadioButton.Text = "BG";
             this.BGRadioButton.UncheckedState.BorderColor = System.Drawing.Color.White;
             this.BGRadioButton.UncheckedState.BorderThickness = 2;
@@ -387,6 +390,7 @@
             this.RURadioButton.Name = "RURadioButton";
             this.RURadioButton.Size = new System.Drawing.Size(20, 20);
             this.RURadioButton.TabIndex = 21113;
+            this.RURadioButton.TabStop = false;
             this.RURadioButton.UncheckedState.BorderColor = System.Drawing.Color.White;
             this.RURadioButton.UncheckedState.BorderThickness = 2;
             this.RURadioButton.UncheckedState.FillColor = System.Drawing.Color.Transparent;
@@ -1385,6 +1389,8 @@
             // 
             // FileDecrypterButton
             // 
+            this.FileDecrypterButton.BorderColor = System.Drawing.Color.Transparent;
+            this.FileDecrypterButton.BorderThickness = 1;
             this.FileDecrypterButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.FileDecrypterButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.FileDecrypterButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1392,16 +1398,20 @@
             this.FileDecrypterButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.FileDecrypterButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FileDecrypterButton.ForeColor = System.Drawing.Color.White;
+            this.FileDecrypterButton.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.FileDecrypterButton.Location = new System.Drawing.Point(763, 510);
             this.FileDecrypterButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FileDecrypterButton.Name = "FileDecrypterButton";
             this.FileDecrypterButton.Size = new System.Drawing.Size(195, 65);
-            this.FileDecrypterButton.TabIndex = 248;
+            this.FileDecrypterButton.TabIndex = 6;
             this.FileDecrypterButton.Text = "File Decryptor";
             this.FileDecrypterButton.Click += new System.EventHandler(this.FileDecrypterButton_Click);
             // 
             // GenerateFileButton
             // 
+            this.GenerateFileButton.BorderColor = System.Drawing.Color.Transparent;
+            this.GenerateFileButton.BorderThickness = 1;
+            this.GenerateFileButton.CustomBorderColor = System.Drawing.Color.Transparent;
             this.GenerateFileButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.GenerateFileButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.GenerateFileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1409,16 +1419,20 @@
             this.GenerateFileButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.GenerateFileButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerateFileButton.ForeColor = System.Drawing.Color.White;
+            this.GenerateFileButton.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.GenerateFileButton.Location = new System.Drawing.Point(305, 510);
             this.GenerateFileButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GenerateFileButton.Name = "GenerateFileButton";
             this.GenerateFileButton.Size = new System.Drawing.Size(195, 66);
-            this.GenerateFileButton.TabIndex = 247;
+            this.GenerateFileButton.TabIndex = 4;
             this.GenerateFileButton.Text = "File Generator";
             this.GenerateFileButton.Click += new System.EventHandler(this.GenerateFileButton_Click);
             // 
             // ConvertButton
             // 
+            this.ConvertButton.BorderColor = System.Drawing.Color.Transparent;
+            this.ConvertButton.BorderThickness = 1;
+            this.ConvertButton.CustomBorderColor = System.Drawing.Color.Transparent;
             this.ConvertButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.ConvertButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.ConvertButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1426,11 +1440,12 @@
             this.ConvertButton.FillColor = System.Drawing.Color.DarkOliveGreen;
             this.ConvertButton.Font = new System.Drawing.Font("Stencil", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConvertButton.ForeColor = System.Drawing.Color.White;
+            this.ConvertButton.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.ConvertButton.Location = new System.Drawing.Point(531, 510);
             this.ConvertButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ConvertButton.Name = "ConvertButton";
             this.ConvertButton.Size = new System.Drawing.Size(200, 66);
-            this.ConvertButton.TabIndex = 246;
+            this.ConvertButton.TabIndex = 5;
             this.ConvertButton.Text = "Convert";
             this.ConvertButton.Click += new System.EventHandler(this.ConvertButton_Click);
             // 
@@ -1511,7 +1526,7 @@
             this.BGControlPanel.FillColor2 = System.Drawing.Color.Transparent;
             this.BGControlPanel.FillColor3 = System.Drawing.Color.Transparent;
             this.BGControlPanel.FillColor4 = System.Drawing.Color.Transparent;
-            this.BGControlPanel.Location = new System.Drawing.Point(299, 90);
+            this.BGControlPanel.Location = new System.Drawing.Point(299, 74);
             this.BGControlPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BGControlPanel.Name = "BGControlPanel";
             this.BGControlPanel.Size = new System.Drawing.Size(659, 414);
@@ -2629,7 +2644,7 @@
             this.RUControlPanel.FillColor2 = System.Drawing.Color.Transparent;
             this.RUControlPanel.FillColor3 = System.Drawing.Color.Transparent;
             this.RUControlPanel.FillColor4 = System.Drawing.Color.Transparent;
-            this.RUControlPanel.Location = new System.Drawing.Point(301, 90);
+            this.RUControlPanel.Location = new System.Drawing.Point(299, 74);
             this.RUControlPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RUControlPanel.Name = "RUControlPanel";
             this.RUControlPanel.Size = new System.Drawing.Size(659, 426);
@@ -2902,7 +2917,7 @@
             this.RUThirdRotor.Location = new System.Drawing.Point(480, 47);
             this.RUThirdRotor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RUThirdRotor.Maximum = new decimal(new int[] {
-            30,
+            33,
             0,
             0,
             0});
@@ -2934,7 +2949,7 @@
             this.RUSecondRotor.Location = new System.Drawing.Point(267, 47);
             this.RUSecondRotor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RUSecondRotor.Maximum = new decimal(new int[] {
-            30,
+            33,
             0,
             0,
             0});
@@ -2961,12 +2976,12 @@
             this.RUFirstRotor.BorderThickness = 0;
             this.RUFirstRotor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.RUFirstRotor.FillColor = System.Drawing.Color.DarkOliveGreen;
-            this.RUFirstRotor.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RUFirstRotor.Font = new System.Drawing.Font("Stencil", 12F);
             this.RUFirstRotor.ForeColor = System.Drawing.Color.White;
             this.RUFirstRotor.Location = new System.Drawing.Point(59, 47);
             this.RUFirstRotor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RUFirstRotor.Maximum = new decimal(new int[] {
-            30,
+            33,
             0,
             0,
             0});

@@ -63,7 +63,7 @@
             this.guna2Button4.Location = new System.Drawing.Point(0, 0);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(130, 68);
-            this.guna2Button4.TabIndex = 3;
+            this.guna2Button4.TabIndex = 0;
             this.guna2Button4.Text = "Home";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
@@ -79,7 +79,7 @@
             this.guna2Button3.Location = new System.Drawing.Point(904, 0);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(378, 68);
-            this.guna2Button3.TabIndex = 2;
+            this.guna2Button3.TabIndex = 3;
             this.guna2Button3.Text = "Morse";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
@@ -95,7 +95,7 @@
             this.guna2Button2.Location = new System.Drawing.Point(520, 0);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(378, 68);
-            this.guna2Button2.TabIndex = 1;
+            this.guna2Button2.TabIndex = 2;
             this.guna2Button2.Text = "File";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
@@ -111,7 +111,7 @@
             this.guna2Button1.Location = new System.Drawing.Point(136, 0);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(378, 68);
-            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "Enigma";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
