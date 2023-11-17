@@ -52,7 +52,7 @@ namespace EncryptSoftware
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            UC_Morse morse = new UC_Morse();
+            playSoundButton_Morse morse = new playSoundButton_Morse();
             addUserControl(morse);
         }
     }

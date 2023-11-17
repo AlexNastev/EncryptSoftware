@@ -47,7 +47,6 @@ C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.Someth
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Enigma.resources
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_File.resources
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Home.resources
-C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Morse.resources
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.GenerateResource.cache
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.CoreCompileInputs.cache
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.CopyComplete
@@ -73,3 +72,4 @@ C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.
 C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.CopyComplete
 C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.exe
 C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.pdb
+C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.playSoundButton_Morse.resources

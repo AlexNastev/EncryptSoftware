@@ -24,10 +24,14 @@ namespace EncryptSoftware.FileEncryptionCode
             throw new ArgumentException("Failed to select a file.\nPlease try again...");
         }
 
-
         public void EncryptFile(string fileName, string num)
         {
-            int n = int.Parse(num);
+            int n = 0;
+            foreach (var item in num)
+            {
+                n += Convert.ToInt32(item);
+            }
+            
             FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate);
             byte[] data = new byte[stream.Length];
             stream.Read(data, 0, data.Length);
@@ -50,6 +54,7 @@ namespace EncryptSoftware.FileEncryptionCode
             writer.Close();
 
         }
+
         public void AddPasswordToFile(string filePath, string password)
         {
             StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
@@ -57,9 +62,10 @@ namespace EncryptSoftware.FileEncryptionCode
 
             writer.Close();
         }
+
         public void FileUnclock(string filePath, string password)
         {
-            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/C.txt", true);
+            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
 
             writer.WriteLine($"{filePath}?{password}?#UNLOCKED#");
             writer.Close();
@@ -89,7 +95,6 @@ namespace EncryptSoftware.FileEncryptionCode
             }
             return false;
         }
-
 
         public bool IsFileLocked(string filePath)
         {

@@ -75,6 +75,7 @@
     <Compile Include="MainScreen.Designer.cs">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="MorseTranslatorFiles\MorseTranslator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SomethingWentWrong.cs">
