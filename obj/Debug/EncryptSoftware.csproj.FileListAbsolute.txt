@@ -13,7 +13,6 @@ C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.Cop
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.exe
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.pdb
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_File.resources
-C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.UC_Morse.resources
 C:\Users\Alex\Desktop\EncryptSoftware-main\EncryptSoftware-main\bin\Debug\EncryptSoftware.exe.config
 C:\Users\Alex\Desktop\EncryptSoftware-main\EncryptSoftware-main\bin\Debug\EncryptSoftware.exe
 C:\Users\Alex\Desktop\EncryptSoftware-main\EncryptSoftware-main\bin\Debug\EncryptSoftware.pdb
@@ -73,3 +72,4 @@ C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.csproj.
 C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.exe
 C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.pdb
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.playSoundButton_Morse.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.playSoundButton_Morse.resources

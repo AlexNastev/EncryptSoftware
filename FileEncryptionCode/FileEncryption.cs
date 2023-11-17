@@ -11,6 +11,7 @@ namespace EncryptSoftware.FileEncryptionCode
 {
     public class FileEncryption
     {
+        public string foldersPath = Environment.CurrentDirectory + "\\Crypted&DecryptedFiles";
         public string GetFileName()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -50,14 +51,14 @@ namespace EncryptSoftware.FileEncryptionCode
 
         public void CreatePasswordFile()
         {
-            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt");
+            StreamWriter writer = new StreamWriter($"{foldersPath}/LogFile.txt");
             writer.Close();
 
         }
 
         public void AddPasswordToFile(string filePath, string password)
         {
-            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
+            StreamWriter writer = new StreamWriter($"{foldersPath}/LogFile.txt", true);
             writer.WriteLine($"{filePath}?{password}?#LOCKED#");
 
             writer.Close();
@@ -65,7 +66,7 @@ namespace EncryptSoftware.FileEncryptionCode
 
         public void FileUnclock(string filePath, string password)
         {
-            StreamWriter writer = new StreamWriter("../../Crypted&DecryptedFiles/LogFile.txt", true);
+            StreamWriter writer = new StreamWriter($"{foldersPath}/LogFile.txt", true);
 
             writer.WriteLine($"{filePath}?{password}?#UNLOCKED#");
             writer.Close();
@@ -75,7 +76,7 @@ namespace EncryptSoftware.FileEncryptionCode
         {
             Dictionary<string, string> passwordDictionary = new Dictionary<string, string>();
 
-            string[] lines = File.ReadAllLines("../../Crypted&DecryptedFiles/LogFile.txt");
+            string[] lines = File.ReadAllLines($"{foldersPath}/LogFile.txt");
 
 
             for (int i = lines.Length - 1; i >= 0; i--)
@@ -99,7 +100,7 @@ namespace EncryptSoftware.FileEncryptionCode
         public bool IsFileLocked(string filePath)
         {
             int count = 0;
-            string[] lines = File.ReadAllLines("../../Crypted&DecryptedFiles/LogFile.txt");
+            string[] lines = File.ReadAllLines($"{foldersPath}/LogFile.txt");
             if (lines.Length < 1)
             {
                 return false;

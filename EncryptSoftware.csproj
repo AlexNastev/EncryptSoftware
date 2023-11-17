@@ -56,18 +56,36 @@
     <Compile Include="EnigmaCode\Enigma.cs" />
     <Compile Include="EnigmaCode\Rotor.cs" />
     <Compile Include="EnigmaCode\RUEnigma.cs" />
-    <Compile Include="FileEncryptionCode\FileEncryption.cs" />
-    <Compile Include="InfoBox.cs">
+    <Compile Include="ErrorForms\SomethingWentWrongRU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InfoBox.Designer.cs">
+    <Compile Include="ErrorForms\SomethingWentWrongRU.Designer.cs">
+      <DependentUpon>SomethingWentWrongRU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileEncryptionCode\FileEncryption.cs" />
+    <Compile Include="InfosForms\BGInfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfosForms\BGInfoBox.Designer.cs">
+      <DependentUpon>BGInfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfosForms\InfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfosForms\InfoBox.Designer.cs">
       <DependentUpon>InfoBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="InvalidPassword.cs">
+    <Compile Include="ErrorForms\InvalidPassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InvalidPassword.Designer.cs">
+    <Compile Include="ErrorForms\InvalidPassword.Designer.cs">
       <DependentUpon>InvalidPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfosForms\RUInfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfosForms\RUInfoBox.Designer.cs">
+      <DependentUpon>RUInfoBox.cs</DependentUpon>
     </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
@@ -78,11 +96,17 @@
     <Compile Include="MorseTranslatorFiles\MorseTranslator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SomethingWentWrong.cs">
+    <Compile Include="ErrorForms\SomethingWentWrong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SomethingWentWrong.Designer.cs">
+    <Compile Include="ErrorForms\SomethingWentWrong.Designer.cs">
       <DependentUpon>SomethingWentWrong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorForms\SomethingWentWrongBG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorForms\SomethingWentWrongBG.Designer.cs">
+      <DependentUpon>SomethingWentWrongBG.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UC_File.cs">
       <SubType>UserControl</SubType>
@@ -108,11 +132,20 @@
     <Compile Include="UserControls\UC_Morse.Designer.cs">
       <DependentUpon>UC_Morse.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="InfoBox.resx">
+    <EmbeddedResource Include="ErrorForms\SomethingWentWrongRU.resx">
+      <DependentUpon>SomethingWentWrongRU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfosForms\BGInfoBox.resx">
+      <DependentUpon>BGInfoBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfosForms\InfoBox.resx">
       <DependentUpon>InfoBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InvalidPassword.resx">
+    <EmbeddedResource Include="ErrorForms\InvalidPassword.resx">
       <DependentUpon>InvalidPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfosForms\RUInfoBox.resx">
+      <DependentUpon>RUInfoBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
@@ -126,8 +159,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SomethingWentWrong.resx">
+    <EmbeddedResource Include="ErrorForms\SomethingWentWrong.resx">
       <DependentUpon>SomethingWentWrong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorForms\SomethingWentWrongBG.resx">
+      <DependentUpon>SomethingWentWrongBG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_Enigma.resx">
       <DependentUpon>UC_Enigma.cs</DependentUpon>

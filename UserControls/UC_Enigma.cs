@@ -11,11 +11,14 @@ using System.Windows.Forms;
 using System.IO;
 using static System.Net.Mime.MediaTypeNames;
 using System.Text.RegularExpressions;
+using EncryptSoftware.InfosForms;
+using EncryptSoftware.ErrorForms;
 
 namespace EncryptSoftware.UserControls
 {
     public partial class UC_Enigma : UserControl
     {
+        public string foldersPath = Environment.CurrentDirectory + "\\Crypted&DecryptedFiles";
         List<char> ENchars;
         List<char> BGchars;
         List<char> RUchars;
@@ -389,7 +392,7 @@ namespace EncryptSoftware.UserControls
                     Enigma enigma = new Enigma(firstRotorValue, secondRotorValue, thirdRotorValue, ENplugBoard);
                     string cryptedMessage = enigma.Crypt(text.ToLower());
                     string fileName = $"{firstRotorValue}_{secondRotorValue}_{thirdRotorValue}";
-                    using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{fileName}_{plugBoardName}Crypted.txt"))
+                    using (StreamWriter sr = new StreamWriter($"{foldersPath}/{fileName}_{plugBoardName}Crypted.txt"))
                     {
                         sr.WriteLine(cryptedMessage);
                     }
@@ -410,7 +413,7 @@ namespace EncryptSoftware.UserControls
                 string text = InputTextBox.Text;
                 if (text == " ")
                 {
-                    SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                    SomethingWentWrongBG somethingWentWrong = new SomethingWentWrongBG();
                     somethingWentWrong.Show();
                 }
                 else
@@ -428,7 +431,7 @@ namespace EncryptSoftware.UserControls
                     BGEnigma enigma = new BGEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, BGplugBoard);
                     string cryptedMessage = enigma.Crypt(text.ToLower());
                     string fileName = $"{firstRotorValue}_{secondRotorValue}_{thirdRotorValue}";
-                    using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{fileName}_{plugBoardName}Crypted.txt"))
+                    using (StreamWriter sr = new StreamWriter($"{foldersPath}/{fileName}_{plugBoardName}Crypted.txt"))
                     {
                         sr.WriteLine(cryptedMessage);
                     }
@@ -437,7 +440,7 @@ namespace EncryptSoftware.UserControls
                     BGSecondRotor.Value = enigma.SecondRotor.Vlaue;
                     BGThirdRotor.Value = enigma.ThirdRotor.Vlaue;
 
-                    InfoBox infoBox = new InfoBox();
+                    BGInfoBox infoBox = new BGInfoBox();
                     infoBox.Show();
                 }
             }
@@ -449,7 +452,7 @@ namespace EncryptSoftware.UserControls
                 string text = InputTextBox.Text;
                 if (text == " ")
                 {
-                    SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                    SomethingWentWrongRU somethingWentWrong = new SomethingWentWrongRU();
                     somethingWentWrong.Show();
                 }
                 else
@@ -467,7 +470,7 @@ namespace EncryptSoftware.UserControls
                     RUEnigma enigma = new RUEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, RUplugBoard);
                     string cryptedMessage = enigma.Crypt(text.ToLower());
                     string fileName = $"{firstRotorValue}_{secondRotorValue}_{thirdRotorValue}";
-                    using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{fileName}_{plugBoardName}Crypted.txt"))
+                    using (StreamWriter sr = new StreamWriter($"{foldersPath}/{fileName}_{plugBoardName}Crypted.txt"))
                     {
                         sr.WriteLine(cryptedMessage);
                     }
@@ -476,7 +479,7 @@ namespace EncryptSoftware.UserControls
                     RUSecondRotor.Value = enigma.SecondRotor.Vlaue;
                     RUThirdRotor.Value = enigma.ThirdRotor.Vlaue;
 
-                    InfoBox infoBox = new InfoBox();
+                    RUInfoBox infoBox = new RUInfoBox();
                     infoBox.Show();
                 }
             }
@@ -524,7 +527,7 @@ namespace EncryptSoftware.UserControls
                             sb.Append(args[i] + '_');
                         }
                         sb.Append("Decrypted.txt");
-                        using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{sb}"))
+                        using (StreamWriter sr = new StreamWriter($"{foldersPath}/{sb}"))
                         {
                             sr.WriteLine(decryptedMessage);
                         }
@@ -584,23 +587,23 @@ namespace EncryptSoftware.UserControls
                             sb.Append(args[i] + '_');
                         }
                         sb.Append("Decrypted.txt");
-                        using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{sb}"))
+                        using (StreamWriter sr = new StreamWriter($"{foldersPath}/{sb}"))
                         {
                             sr.WriteLine(decryptedMessage);
                         }
-                        InfoBox infoBox = new InfoBox();
+                        BGInfoBox infoBox = new BGInfoBox();
                         infoBox.Show();
                     }
                     else
                     {
-                        SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                        SomethingWentWrongBG somethingWentWrong = new SomethingWentWrongBG();
                         somethingWentWrong.Show();
                     }
 
                 }
                 else
                 {
-                    SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                    SomethingWentWrongBG somethingWentWrong = new SomethingWentWrongBG();
                     somethingWentWrong.Show();
                 }
             }
@@ -644,22 +647,22 @@ namespace EncryptSoftware.UserControls
                             sb.Append(args[i] + '_');
                         }
                         sb.Append("Decrypted.txt");
-                        using (StreamWriter sr = new StreamWriter($"../../Crypted&DecryptedFiles/{sb}"))
+                        using (StreamWriter sr = new StreamWriter($"{foldersPath}/{sb}"))
                         {
                             sr.WriteLine(decryptedMessage);
                         }
-                        InfoBox infoBox = new InfoBox();
+                        RUInfoBox infoBox = new RUInfoBox();
                         infoBox.Show();
                     }
                     else
                     {
-                        SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                        SomethingWentWrongRU somethingWentWrong = new SomethingWentWrongRU();
                         somethingWentWrong.Show();
                     }
                 }
                 else
                 {
-                    SomethingWentWrong somethingWentWrong = new SomethingWentWrong();
+                    SomethingWentWrongRU somethingWentWrong = new SomethingWentWrongRU();
                     somethingWentWrong.Show();
                 }
             }

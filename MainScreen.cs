@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,18 @@ namespace EncryptSoftware
         public MainScreen()
         {
             InitializeComponent();
+            try
+            {
+                // If the directory doesn't exist, create it.
+                if (!Directory.Exists(Environment.CurrentDirectory+"\\Crypted&DecryptedFiles"))
+                {
+                    Directory.CreateDirectory(Environment.CurrentDirectory + "\\Crypted&DecryptedFiles");
+                }
+            }
+            catch (Exception)
+            {
+                // Fail silently
+            }
         }
 
         private void MainScreen_Load(object sender, EventArgs e)
@@ -54,6 +67,11 @@ namespace EncryptSoftware
         {
             playSoundButton_Morse morse = new playSoundButton_Morse();
             addUserControl(morse);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

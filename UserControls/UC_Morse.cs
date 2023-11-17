@@ -75,10 +75,20 @@ namespace EncryptSoftware.UserControls
 
         }
 
-        async void PlaySoundButton_Click(object sender, EventArgs e)
+        private void PlaySoundButton_Click(object sender, EventArgs e)
+        {
+            soundSpeedComboBox1.Invoke(new Action(PlaySoundClick));
+        }
+
+        private void PlaySoundClick()
         {
             MorseTranslator morseTranslator = new MorseTranslator();
-            await Task.Run(() => morseTranslator.PlaySound(outputTextBox.Text));
+            morseTranslator.PlaySound(outputTextBox.Text, soundSpeedComboBox1.Text);
+        }
+
+        private void soundSpeedComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

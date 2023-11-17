@@ -18,6 +18,7 @@ namespace EncryptSoftware.UserControls
 {
     public partial class UC_File : UserControl
     {
+        public string foldersPath = Environment.CurrentDirectory + "\\Crypted&DecryptedFiles";
         public UC_File()
         {
             InitializeComponent();
@@ -86,7 +87,7 @@ namespace EncryptSoftware.UserControls
             }
             else
             {
-                if (!File.Exists("../../Crypted&DecryptedFiles/LogFile.txt"))
+                if (!File.Exists($"{foldersPath}/LogFile.txt"))
                 {
                     fileEncryption.CreatePasswordFile();
                 }

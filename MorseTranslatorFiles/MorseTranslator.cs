@@ -10,17 +10,20 @@ namespace EncryptSoftware
     public class MorseTranslator
     {
 
-        public void PlaySound(string input)
+        public void PlaySound(string input, string speedModifierString)
         {
+            double speedModifier = double.Parse(speedModifierString);
+            int duration = (int)Math.Round(300 / speedModifier);
+
             foreach (var item in input)
             {
                 if (item == '-')
                 {
-                    Console.Beep(650, 400);
+                    Console.Beep(650, duration * 2);
                 }
                 else if (item == '.')
                 {
-                    Console.Beep(650, 200);
+                    Console.Beep(650, duration);
                 }
             }
         }

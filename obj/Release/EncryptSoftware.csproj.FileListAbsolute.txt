@@ -11,9 +11,13 @@ C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.Somethin
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.UserControls.UC_Enigma.resources
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.UserControls.UC_File.resources
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.UserControls.UC_Home.resources
-C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.UserControls.UC_Morse.resources
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.csproj.GenerateResource.cache
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.csproj.CoreCompileInputs.cache
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.csproj.CopyComplete
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.exe
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.pdb
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.UserControls.playSoundButton_Morse.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.SomethingWentWrongBG.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.ErrorForms.SomethingWentWrongRU.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.InfosForms.BGInfoBox.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Release\EncryptSoftware.InfosForms.RUInfoBox.resources
