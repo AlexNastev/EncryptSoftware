@@ -130,6 +130,9 @@ namespace EncryptSoftware.UserControls
 
         }
 
-
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            guna2TextBox1.Text = string.Empty;
+        }
     }
 }
