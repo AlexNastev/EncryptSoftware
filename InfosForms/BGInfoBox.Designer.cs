@@ -112,6 +112,7 @@
             this.OKButton.Size = new System.Drawing.Size(103, 37);
             this.OKButton.TabIndex = 138;
             this.OKButton.Text = "OK";
+            this.OKButton.Click += new System.EventHandler(this.OKButton_Click_1);
             // 
             // BGInfoBox
             // 

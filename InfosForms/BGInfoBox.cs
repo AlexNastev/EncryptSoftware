@@ -17,7 +17,9 @@ namespace EncryptSoftware.InfosForms
             InitializeComponent();
         }
 
-        private void OKButton_Click(object sender, EventArgs e)
+        
+
+        private void OKButton_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
