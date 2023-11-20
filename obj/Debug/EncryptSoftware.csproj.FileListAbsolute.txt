@@ -73,3 +73,7 @@ C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.exe
 C:\Users\Alex\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.pdb
 C:\Users\ginch\Documents\GitHub\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.playSoundButton_Morse.resources
 C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.UserControls.playSoundButton_Morse.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.ErrorForms.SomethingWentWrongRU.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.InfosForms.BGInfoBox.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.InfosForms.RUInfoBox.resources
+C:\Users\alexn\source\repos\EncryptSoftware\obj\Debug\EncryptSoftware.SomethingWentWrongBG.resources

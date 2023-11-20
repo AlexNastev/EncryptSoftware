@@ -128,6 +128,7 @@
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RUInfoBox";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RUInfoBox";
             this.ResumeLayout(false);
             this.PerformLayout();
