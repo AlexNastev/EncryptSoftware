@@ -651,6 +651,7 @@
             this.KCheckBox.UncheckedState.BorderRadius = 11;
             this.KCheckBox.UncheckedState.BorderThickness = 0;
             this.KCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.KCheckBox.Click += new System.EventHandler(this.KCheckBox_Click);
             // 
             // JCheckBox
             // 
@@ -670,6 +671,7 @@
             this.JCheckBox.UncheckedState.BorderRadius = 11;
             this.JCheckBox.UncheckedState.BorderThickness = 0;
             this.JCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.JCheckBox.Click += new System.EventHandler(this.JCheckBox_Click);
             // 
             // HCheckBox
             // 
@@ -689,6 +691,7 @@
             this.HCheckBox.UncheckedState.BorderRadius = 11;
             this.HCheckBox.UncheckedState.BorderThickness = 0;
             this.HCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.HCheckBox.Click += new System.EventHandler(this.HCheckBox_Click);
             // 
             // GCheckBox
             // 
@@ -708,6 +711,7 @@
             this.GCheckBox.UncheckedState.BorderRadius = 11;
             this.GCheckBox.UncheckedState.BorderThickness = 0;
             this.GCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.GCheckBox.Click += new System.EventHandler(this.GCheckBox_Click);
             // 
             // FCheckBox
             // 
@@ -727,6 +731,7 @@
             this.FCheckBox.UncheckedState.BorderRadius = 11;
             this.FCheckBox.UncheckedState.BorderThickness = 0;
             this.FCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.FCheckBox.Click += new System.EventHandler(this.FCheckBox_Click);
             // 
             // DCheckBox
             // 
@@ -746,6 +751,7 @@
             this.DCheckBox.UncheckedState.BorderRadius = 11;
             this.DCheckBox.UncheckedState.BorderThickness = 0;
             this.DCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.DCheckBox.Click += new System.EventHandler(this.DCheckBox_Click);
             // 
             // SCheckBox
             // 
@@ -765,6 +771,7 @@
             this.SCheckBox.UncheckedState.BorderRadius = 11;
             this.SCheckBox.UncheckedState.BorderThickness = 0;
             this.SCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.SCheckBox.Click += new System.EventHandler(this.SCheckBox_Click);
             // 
             // ACheckBox
             // 
@@ -784,6 +791,7 @@
             this.ACheckBox.UncheckedState.BorderRadius = 11;
             this.ACheckBox.UncheckedState.BorderThickness = 0;
             this.ACheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ACheckBox.Click += new System.EventHandler(this.ACheckBox_Click);
             // 
             // MCheckBox
             // 
@@ -803,6 +811,7 @@
             this.MCheckBox.UncheckedState.BorderRadius = 11;
             this.MCheckBox.UncheckedState.BorderThickness = 0;
             this.MCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.MCheckBox.Click += new System.EventHandler(this.MCheckBox_Click);
             // 
             // NCheckBox
             // 
@@ -822,6 +831,7 @@
             this.NCheckBox.UncheckedState.BorderRadius = 11;
             this.NCheckBox.UncheckedState.BorderThickness = 0;
             this.NCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.NCheckBox.Click += new System.EventHandler(this.NCheckBox_Click);
             // 
             // BCheckBox
             // 
@@ -841,6 +851,7 @@
             this.BCheckBox.UncheckedState.BorderRadius = 11;
             this.BCheckBox.UncheckedState.BorderThickness = 0;
             this.BCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.BCheckBox.Click += new System.EventHandler(this.BCheckBox_Click);
             // 
             // VCheckBox
             // 
@@ -860,6 +871,7 @@
             this.VCheckBox.UncheckedState.BorderRadius = 11;
             this.VCheckBox.UncheckedState.BorderThickness = 0;
             this.VCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.VCheckBox.Click += new System.EventHandler(this.VCheckBox_Click);
             // 
             // CCheckBox
             // 
@@ -879,6 +891,7 @@
             this.CCheckBox.UncheckedState.BorderRadius = 11;
             this.CCheckBox.UncheckedState.BorderThickness = 0;
             this.CCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.CCheckBox.Click += new System.EventHandler(this.CCheckBox_Click);
             // 
             // XCheckBox
             // 
@@ -898,6 +911,7 @@
             this.XCheckBox.UncheckedState.BorderRadius = 11;
             this.XCheckBox.UncheckedState.BorderThickness = 0;
             this.XCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.XCheckBox.Click += new System.EventHandler(this.XCheckBox_Click);
             // 
             // YCheckBox
             // 
@@ -917,6 +931,7 @@
             this.YCheckBox.UncheckedState.BorderRadius = 11;
             this.YCheckBox.UncheckedState.BorderThickness = 0;
             this.YCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.YCheckBox.Click += new System.EventHandler(this.YCheckBox_Click);
             // 
             // PCheckBox
             // 
@@ -936,6 +951,7 @@
             this.PCheckBox.UncheckedState.BorderRadius = 11;
             this.PCheckBox.UncheckedState.BorderThickness = 0;
             this.PCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.PCheckBox.Click += new System.EventHandler(this.PCheckBox_Click);
             // 
             // LCheckBox
             // 
@@ -955,6 +971,7 @@
             this.LCheckBox.UncheckedState.BorderRadius = 11;
             this.LCheckBox.UncheckedState.BorderThickness = 0;
             this.LCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.LCheckBox.Click += new System.EventHandler(this.LCheckBox_Click);
             // 
             // ICheckBox
             // 
@@ -974,6 +991,7 @@
             this.ICheckBox.UncheckedState.BorderRadius = 11;
             this.ICheckBox.UncheckedState.BorderThickness = 0;
             this.ICheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ICheckBox.Click += new System.EventHandler(this.ICheckBox_Click);
             // 
             // UCheckBox
             // 
@@ -993,6 +1011,7 @@
             this.UCheckBox.UncheckedState.BorderRadius = 11;
             this.UCheckBox.UncheckedState.BorderThickness = 0;
             this.UCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.UCheckBox.Click += new System.EventHandler(this.UCheckBox_Click);
             // 
             // ZCheckBox
             // 
@@ -1012,6 +1031,7 @@
             this.ZCheckBox.UncheckedState.BorderRadius = 11;
             this.ZCheckBox.UncheckedState.BorderThickness = 0;
             this.ZCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ZCheckBox.Click += new System.EventHandler(this.ZCheckBox_Click);
             // 
             // TCheckBox
             // 
@@ -1031,6 +1051,7 @@
             this.TCheckBox.UncheckedState.BorderRadius = 11;
             this.TCheckBox.UncheckedState.BorderThickness = 0;
             this.TCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.TCheckBox.Click += new System.EventHandler(this.TCheckBox_Click);
             // 
             // RCheckBox
             // 
@@ -1050,6 +1071,7 @@
             this.RCheckBox.UncheckedState.BorderRadius = 11;
             this.RCheckBox.UncheckedState.BorderThickness = 0;
             this.RCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.RCheckBox.Click += new System.EventHandler(this.RCheckBox_Click);
             // 
             // ECheckBox
             // 
@@ -1069,6 +1091,7 @@
             this.ECheckBox.UncheckedState.BorderRadius = 11;
             this.ECheckBox.UncheckedState.BorderThickness = 0;
             this.ECheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.ECheckBox.Click += new System.EventHandler(this.ECheckBox_Click);
             // 
             // WCheckBox
             // 
@@ -1088,6 +1111,7 @@
             this.WCheckBox.UncheckedState.BorderRadius = 11;
             this.WCheckBox.UncheckedState.BorderThickness = 0;
             this.WCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.WCheckBox.Click += new System.EventHandler(this.WCheckBox_Click);
             // 
             // QCheckBox
             // 
@@ -1107,6 +1131,7 @@
             this.QCheckBox.UncheckedState.BorderRadius = 11;
             this.QCheckBox.UncheckedState.BorderThickness = 0;
             this.QCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.QCheckBox.Click += new System.EventHandler(this.QCheckBox_Click);
             // 
             // OCheckBox
             // 
@@ -1126,6 +1151,7 @@
             this.OCheckBox.UncheckedState.BorderRadius = 11;
             this.OCheckBox.UncheckedState.BorderThickness = 0;
             this.OCheckBox.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.OCheckBox.Click += new System.EventHandler(this.OCheckBox_Click);
             // 
             // label20
             // 
@@ -2699,7 +2725,7 @@
             this.RUControlPanel.FillColor2 = System.Drawing.Color.Transparent;
             this.RUControlPanel.FillColor3 = System.Drawing.Color.Transparent;
             this.RUControlPanel.FillColor4 = System.Drawing.Color.Transparent;
-            this.RUControlPanel.Location = new System.Drawing.Point(301, 74);
+            this.RUControlPanel.Location = new System.Drawing.Point(301, 76);
             this.RUControlPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RUControlPanel.Name = "RUControlPanel";
             this.RUControlPanel.Size = new System.Drawing.Size(659, 426);
