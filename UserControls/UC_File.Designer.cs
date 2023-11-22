@@ -95,7 +95,7 @@
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(131)))), ((int)(((byte)(99)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.Gold;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Stencil", 12F);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.Gold;
             this.guna2TextBox1.Location = new System.Drawing.Point(417, 104);
