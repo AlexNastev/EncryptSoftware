@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexn\\Desktop\\Enigma DP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|c:\\users\\alexn\\desktop\\enigma dp\\usercontrols\\uc_enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|solutionrelative:usercontrols\\uc_enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|C:\\Users\\alexn\\Desktop\\Enigma DP\\usercontrols\\uc_enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|solutionrelative:usercontrols\\uc_enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|C:\\Users\\alexn\\Desktop\\Enigma DP\\enigmacode\\enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|solutionrelative:enigmacode\\enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|C:\\Users\\alexn\\Desktop\\Enigma DP\\enigmacode\\rotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4F2B8F-4F4D-45D6-8E98-0D7D5E634DA5}|EncryptSoftware.csproj|solutionrelative:enigmacode\\rotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enigma.cs",
+              "DocumentMoniker": "C:\\Users\\alexn\\Desktop\\Enigma DP\\EnigmaCode\\Enigma.cs",
+              "RelativeDocumentMoniker": "EnigmaCode\\Enigma.cs",
+              "ToolTip": "C:\\Users\\alexn\\Desktop\\Enigma DP\\EnigmaCode\\Enigma.cs",
+              "RelativeToolTip": "EnigmaCode\\Enigma.cs",
+              "ViewState": "AQIAAFIDAAAAAAAAAAAswHQDAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-30T19:32:37.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rotor.cs",
+              "DocumentMoniker": "C:\\Users\\alexn\\Desktop\\Enigma DP\\EnigmaCode\\Rotor.cs",
+              "RelativeDocumentMoniker": "EnigmaCode\\Rotor.cs",
+              "ToolTip": "C:\\Users\\alexn\\Desktop\\Enigma DP\\EnigmaCode\\Rotor.cs",
+              "RelativeToolTip": "EnigmaCode\\Rotor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-30T18:46:08.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_Enigma.cs",
+              "DocumentMoniker": "C:\\Users\\alexn\\Desktop\\Enigma DP\\UserControls\\UC_Enigma.cs",
+              "RelativeDocumentMoniker": "UserControls\\UC_Enigma.cs",
+              "ToolTip": "C:\\Users\\alexn\\Desktop\\Enigma DP\\UserControls\\UC_Enigma.cs",
+              "RelativeToolTip": "UserControls\\UC_Enigma.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAkwD4CAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-26T17:08:42.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_Enigma.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\alexn\\Desktop\\Enigma DP\\UserControls\\UC_Enigma.cs",
+              "RelativeDocumentMoniker": "UserControls\\UC_Enigma.cs",
+              "ToolTip": "C:\\Users\\alexn\\Desktop\\Enigma DP\\UserControls\\UC_Enigma.cs [Design]",
+              "RelativeToolTip": "UserControls\\UC_Enigma.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-01-26T17:08:26.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
