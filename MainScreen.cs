@@ -57,6 +57,18 @@ namespace EncryptSoftware
             addUserControl(home);
         }
 
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            UC_File file = new UC_File();
+            addUserControl(file);
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            playSoundButton_Morse morse = new playSoundButton_Morse();
+            addUserControl(morse);
+        }
+
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 

@@ -187,16 +187,7 @@ namespace EncryptSoftware.UserControls
 
                 Enigma enigma = new Enigma(firstRotorValue, secondRotorValue, thirdRotorValue, ENplugBoard);
                 string messageToCrypt = InputTextBox.Text.ToLower();
-                try
-                {
-                    OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
-                }
-                catch (Exception ex)
-                {
-
-                    WrongInputCheckLanguageEN somethingWentWrong = new WrongInputCheckLanguageEN();
-                    somethingWentWrong.Show();
-                }
+                OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
                 guna2NumericUpDown1.Value = enigma.FirstRotor.Vlaue;
                 guna2NumericUpDown2.Value = enigma.SecondRotor.Vlaue;
                 guna2NumericUpDown3.Value = enigma.ThirdRotor.Vlaue;
@@ -215,16 +206,7 @@ namespace EncryptSoftware.UserControls
 
                 BGEnigma enigma = new BGEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, BGplugBoard);
                 string messageToCrypt = InputTextBox.Text.ToLower();
-                try
-                {
-                    OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
-                }
-                catch (Exception ex)
-                {
-
-                    WrongInputBG somethingWentWrong = new WrongInputBG();
-                    somethingWentWrong.Show();
-                }
+                OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
                 BGFirstRotor.Value = enigma.FirstRotor.Vlaue;
                 BGSecondRotor.Value = enigma.SecondRotor.Vlaue;
                 BGThirdRotor.Value = enigma.ThirdRotor.Vlaue;
@@ -243,16 +225,7 @@ namespace EncryptSoftware.UserControls
 
                 RUEnigma enigma = new RUEnigma(firstRotorValue, secondRotorValue, thirdRotorValue, RUplugBoard);
                 string messageToCrypt = InputTextBox.Text.ToLower();
-                try
-                {
-                    OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
-                }
-                catch (Exception ex)
-                {
-
-                    WrongInputRU somethingWentWrong = new WrongInputRU();
-                    somethingWentWrong.Show();
-                }
+                OutPutTextBox.Text = enigma.Crypt(messageToCrypt);
                 RUFirstRotor.Value = enigma.FirstRotor.Vlaue;
                 RUSecondRotor.Value = enigma.SecondRotor.Vlaue;
                 RUThirdRotor.Value = enigma.ThirdRotor.Vlaue;

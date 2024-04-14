@@ -91,7 +91,7 @@
             this.label29.BackColor = System.Drawing.Color.Transparent;
             this.label29.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(17, 35);
+            this.label29.Location = new System.Drawing.Point(27, 35);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(274, 105);
             this.label29.TabIndex = 137;
